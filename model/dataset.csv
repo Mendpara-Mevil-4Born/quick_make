@@ -1,0 +1,546 @@
+Module Name,Technology,Complexity,Time,Cost
+login,PHP,small,2.54,127.4
+register,PHP,small,2.54,227.4
+dashboard,PHP,medium,10.11,600.86
+profile,PHP,medium,5.92,444.62
+settings,PHP,small,1.54,227.4
+content management,PHP,small,43.54,227.4
+user authentication,PHP,small,0.3,227.4
+authorization,PHP,medium    ,0.3,444.62
+search,PHP,medium,0.45,444.62
+navigation,PHP,small,1.25,227.4
+sitemap,PHP,small,4.54,227.4
+feedback,PHP,small,0.25,227.4
+contact,PHP,small,0.25,227.4
+newsletter subscription,PHP,small,0.25,227.4
+help,PHP,small,1.01,444.62
+faq,PHP,small,1.0,444.62
+product catalog,PHP,medium,8.92,444.62
+shopping cart,PHP,medium,9.92,444.62
+checkout,PHP,medium,8.92,444.62
+payment gateway,PHP,large,18.11,907.86
+order management,PHP,medium,8.92,444.62
+inventory management,PHP,medium,8.92,444.62
+shipping,PHP,medium,8.92,444.62
+returns,PHP,small,4.54,227.4
+customer accounts,PHP,medium,8.92,444.62
+reviews & ratings,PHP,medium,8.92,444.62
+wishlists,PHP,small,4.54,227.4
+promotions & discounts,PHP,medium,8.92,444.62
+coupons,PHP,medium,8.92,444.62
+admin login,PHP,small,4.54,227.4
+user management,PHP,small,4.54,227.4
+content management (admin),PHP,small,4.54,227.4
+product management,PHP,small,4.54,227.4
+order management (admin),PHP,small,4.54,227.4
+report generation,PHP,medium,8.92,444.62
+analytics dashboard,PHP,large,18.11,907.86
+settings (admin),PHP,medium,8.92,444.62
+seo management,PHP,small,4.54,227.4
+security management,PHP,small,4.54,227.4
+file management,PHP,small,4.54,227.4
+blog management (if applicable),PHP,medium,8.92,444.62
+cms integrations,PHP,medium,8.92,444.62
+api integrations,PHP,small,4.54,227.4
+payment history,PHP,small,4.54,227.4
+notification system,PHP,small,4.54,227.4
+inventory management,angular,medium,10.5,525.0
+speech recognition,fastapi,large,17.7,885.0
+speech recognition,fastapi,small,3.3,165.0
+social media integration,angular,small,5.3,265.0
+voice assistant,angular,large,19.7,985.0
+activity monitoring,node.js,small,4.3,215.0
+voice assistant,ruby on rails,medium,9.9,495.0
+inventory management,angular,large,12.6,630.0
+inventory management,c#,medium,11.5,575.0
+user management,java,small,4.5,225.0
+user management,python,medium,11.6,580.0
+inventory management,java,small,3.6,180.0
+data analytics,python,large,21.4,1070.0
+voice assistant,python,medium,9.4,470.0
+machine learning model,java,large,13.4,670.0
+recommendation system,flask,medium,11.1,555.0
+activity monitoring,ruby on rails,medium,8.0,400.0
+data analytics,react,small,3.1,155.0
+dashboard,ruby on rails,large,15.3,765.0
+data analytics,fastapi,medium,9.8,490.0
+social media integration,python,small,3.8,190.0
+activity monitoring,ruby on rails,medium,7.3,365.0
+image processing,react,medium,9.3,465.0
+voice assistant,python,medium,11.6,580.0
+chatbot,java,medium,11.8,590.0
+data analytics,ruby on rails,medium,8.6,430.0
+e-commerce backend,python,medium,6.8,340.0
+payment gateway,fastapi,large,13.2,660.0
+e-commerce backend,fastapi,small,4.1,204.0
+data analytics,react,small,3.9,195.0
+recommendation system,fastapi,small,3.6,180.0
+speech recognition,node.js,small,4.7,235.0
+machine learning model,django,large,16.1,805.0
+activity monitoring,ruby on rails,large,21.1,1055.0
+voice assistant,python,medium,10.7,535.0
+e-commerce backend,c#,large,16.9,844.0
+recommendation system,c#,large,19.1,955.0
+data analytics,ruby on rails,medium,6.4,320.0
+speech recognition,angular,small,5.6,280.0
+dashboard,c#,medium,6.2,310.0
+chatbot,python,medium,7.2,360.0
+voice assistant,angular,large,23.6,1180.0
+activity monitoring,java,large,19.1,955.0
+payment gateway,ruby on rails,medium,6.2,310.0
+activity monitoring,django,small,3.0,150.0
+social media integration,flask,small,5.4,270.0
+image processing,python,large,22.6,1130.0
+inventory management,node.js,small,5.8,290.0
+payment gateway,django,medium,9.2,459.0
+social media integration,java,medium,9.9,495.0
+machine learning model,fastapi,small,4.9,245.0
+data analytics,react,medium,7.4,370.0
+activity monitoring,c#,medium,7.3,365.0
+e-commerce backend,flask,small,3.6,180.0
+user management,c#,small,4.4,220.0
+login,django,small,5.3,265.0
+image processing,fastapi,small,3.7,185.0
+speech recognition,fastapi,small,4.7,235.0
+inventory management,react,small,5.0,250.0
+data analytics,react,medium,9.5,475.0
+e-commerce backend,node.js,large,23.7,1185.0
+payment gateway,django,medium,6.5,325.0
+user management,python,medium,6.8,340.0
+activity monitoring,python,large,17.8,890.0
+user management,java,medium,10.5,525.0
+social media integration,ruby on rails,small,3.8,190.0
+speech recognition,django,medium,8.3,415.0
+voice assistant,python,large,20.8,1040.0
+activity monitoring,ruby on rails,small,3.9,195.0
+machine learning model,c#,medium,6.9,345.0
+dashboard,flask,large,13.7,685.0
+recommendation system,flask,medium,10.2,509.0
+data analytics,python,small,6.0,300.0
+machine learning model,fastapi,large,15.6,780.0
+login,java,medium,9.1,455.0
+chatbot,flask,medium,11.8,590.0
+voice assistant,angular,large,20.6,1030.0
+data analytics,c#,medium,7.8,390.0
+login,c#,medium,11.1,555.0
+login,c#,medium,11.8,590.0
+voice assistant,react,large,21.4,1070.0
+payment gateway,flask,small,3.3,165.0
+data analytics,fastapi,large,13.2,660.0
+e-commerce backend,node.js,large,16.8,840.0
+data analytics,django,large,13.9,695.0
+user management,python,medium,7.8,390.0
+machine learning model,angular,medium,6.5,325.0
+activity monitoring,flask,medium,10.7,535.0
+user management,c#,medium,9.9,495.0
+inventory management,java,small,3.3,165.0
+voice assistant,fastapi,large,23.6,1180.0
+activity monitoring,django,large,22.9,1145.0
+activity monitoring,flask,medium,9.2,459.0
+dashboard,react,medium,10.4,520.0
+dashboard,java,small,4.3,215.0
+data analytics,c#,large,13.3,665.0
+user management,node.js,small,4.3,215.0
+chatbot,fastapi,large,23.6,1180.0
+image processing,angular,medium,7.6,380.0
+recommendation system,flask,large,20.9,1045.0
+social media integration,node.js,large,13.7,685.0
+dashboard,python,large,13.2,660.0
+login,java,medium,8.8,440.0
+chatbot,fastapi,small,5.3,265.0
+login,java,small,3.0,150.0
+social media integration,node.js,medium,6.7,335.0
+speech recognition,fastapi,small,3.6,180.0
+voice assistant,python,large,17.9,894.0
+data analytics,java,large,19.1,955.0
+machine learning model,node.js,small,5.7,285.0
+e-commerce backend,flask,small,4.8,240.0
+machine learning model,react,large,13.5,675.0
+chatbot,java,large,18.1,905.0
+speech recognition,java,small,4.4,220.0
+data analytics,java,small,5.6,280.0
+machine learning model,fastapi,medium,8.7,434.0
+user management,c#,small,3.2,160.0
+user management,react,large,17.2,860.0
+social media integration,node.js,medium,7.6,380.0
+payment gateway,django,small,3.5,175.0
+activity monitoring,c#,medium,9.9,495.0
+speech recognition,python,large,22.3,1115.0
+image processing,c#,medium,9.4,470.0
+image processing,java,medium,10.5,525.0
+recommendation system,django,medium,10.9,545.0
+recommendation system,ruby on rails,medium,9.4,470.0
+user management,java,medium,10.9,545.0
+e-commerce backend,java,large,12.8,640.0
+inventory management,c#,medium,10.5,525.0
+payment gateway,django,small,5.4,270.0
+user management,fastapi,large,20.2,1010.0
+payment gateway,node.js,medium,11.4,570.0
+user management,django,medium,10.1,505.0
+image processing,angular,small,4.1,204.0
+speech recognition,react,small,4.8,240.0
+e-commerce backend,react,medium,10.8,540.0
+user management,ruby on rails,small,5.2,260.0
+chatbot,django,small,3.7,185.0
+machine learning model,c#,large,20.4,1019.0
+machine learning model,flask,medium,9.1,455.0
+inventory management,c#,medium,8.3,415.0
+chatbot,react,medium,8.3,415.0
+speech recognition,django,large,18.9,944.0
+activity monitoring,node.js,medium,9.6,480.0
+social media integration,ruby on rails,medium,8.5,425.0
+user management,fastapi,small,4.7,235.0
+dashboard,node.js,small,5.7,285.0
+payment gateway,java,medium,7.5,375.0
+image processing,flask,medium,11.3,565.0
+e-commerce backend,python,small,3.7,185.0
+chatbot,flask,small,5.3,265.0
+image processing,python,medium,7.1,355.0
+activity monitoring,node.js,large,21.0,1050.0
+inventory management,angular,small,3.6,180.0
+user management,ruby on rails,large,13.9,695.0
+activity monitoring,fastapi,large,15.7,785.0
+voice assistant,django,medium,9.9,495.0
+inventory management,react,large,17.4,869.0
+voice assistant,react,small,4.2,210.0
+chatbot,c#,large,16.9,844.0
+e-commerce backend,node.js,large,13.7,685.0
+social media integration,ruby on rails,large,12.2,610.0
+social media integration,react,large,15.8,790.0
+voice assistant,c#,medium,8.6,430.0
+dashboard,c#,medium,7.1,355.0
+activity monitoring,flask,small,3.1,155.0
+social media integration,react,small,4.2,210.0
+activity monitoring,angular,medium,9.7,484.0
+e-commerce backend,node.js,medium,6.1,305.0
+speech recognition,angular,large,15.7,785.0
+voice assistant,angular,large,14.4,720.0
+chatbot,python,medium,8.2,409.0
+login,fastapi,large,12.5,625.0
+social media integration,python,small,6.0,300.0
+chatbot,flask,large,17.5,875.0
+data analytics,django,medium,10.9,545.0
+inventory management,java,medium,9.5,475.0
+dashboard,node.js,medium,10.6,530.0
+login,react,small,4.4,220.0
+login,fastapi,small,5.8,290.0
+machine learning model,django,small,5.8,290.0
+login,angular,large,23.6,1180.0
+social media integration,fastapi,large,13.1,655.0
+image processing,fastapi,small,5.5,275.0
+image processing,react,small,4.2,210.0
+inventory management,node.js,small,4.9,245.0
+dashboard,python,large,20.3,1015.0
+user management,ruby on rails,small,3.4,170.0
+e-commerce backend,ruby on rails,medium,11.6,580.0
+recommendation system,node.js,medium,11.6,580.0
+payment gateway,react,small,4.2,210.0
+e-commerce backend,react,small,4.8,240.0
+recommendation system,java,small,4.7,235.0
+user management,angular,large,23.1,1155.0
+machine learning model,java,large,12.2,610.0
+data analytics,ruby on rails,medium,9.1,455.0
+activity monitoring,django,small,3.1,155.0
+data analytics,python,large,15.0,750.0
+chatbot,ruby on rails,large,22.1,1105.0
+dashboard,flask,small,5.7,285.0
+machine learning model,java,small,3.2,160.0
+data analytics,node.js,medium,7.4,370.0
+machine learning model,python,large,16.3,815.0
+voice assistant,flask,large,15.8,790.0
+data analytics,django,large,20.7,1035.0
+dashboard,python,large,19.0,950.0
+recommendation system,django,medium,9.6,480.0
+speech recognition,java,large,16.9,844.0
+image processing,react,large,13.4,670.0
+chatbot,java,large,22.3,1115.0
+activity monitoring,python,large,14.7,735.0
+recommendation system,react,large,12.4,620.0
+machine learning model,react,medium,6.7,335.0
+data analytics,c#,medium,9.1,455.0
+inventory management,c#,medium,8.3,415.0
+voice assistant,node.js,large,20.0,1000.0
+dashboard,python,small,4.0,200.0
+machine learning model,node.js,medium,6.6,330.0
+data analytics,node.js,large,15.1,755.0
+image processing,angular,small,3.8,190.0
+machine learning model,python,large,19.5,975.0
+recommendation system,fastapi,medium,7.2,360.0
+recommendation system,django,large,18.5,925.0
+machine learning model,java,medium,10.2,509.0
+image processing,ruby on rails,small,5.0,250.0
+speech recognition,fastapi,medium,6.1,305.0
+e-commerce backend,angular,large,22.1,1105.0
+chatbot,fastapi,large,22.9,1145.0
+recommendation system,c#,medium,7.8,390.0
+activity monitoring,angular,large,22.9,1145.0
+e-commerce backend,fastapi,large,14.3,715.0
+payment gateway,java,medium,10.1,505.0
+data analytics,java,large,23.2,1160.0
+payment gateway,flask,medium,10.4,520.0
+speech recognition,fastapi,large,23.0,1150.0
+login,python,small,4.2,210.0
+inventory management,angular,large,13.7,685.0
+login,c#,small,5.8,290.0
+social media integration,flask,medium,6.8,340.0
+chatbot,angular,small,4.9,245.0
+data analytics,fastapi,small,4.6,229.0
+e-commerce backend,c#,large,13.0,650.0
+chatbot,flask,small,6.0,300.0
+e-commerce backend,angular,medium,10.6,530.0
+login,java,large,21.4,1070.0
+login,react,small,4.2,210.0
+voice assistant,ruby on rails,large,13.7,685.0
+activity monitoring,java,large,20.6,1030.0
+dashboard,node.js,medium,7.2,360.0
+e-commerce backend,java,large,17.8,890.0
+speech recognition,java,small,3.5,175.0
+inventory management,node.js,medium,10.6,530.0
+data analytics,python,large,17.9,894.0
+social media integration,python,large,17.5,875.0
+payment gateway,django,small,3.3,165.0
+social media integration,ruby on rails,large,22.7,1135.0
+e-commerce backend,c#,small,4.1,204.0
+voice assistant,java,small,4.9,245.0
+login,angular,large,20.0,1000.0
+login,java,small,3.2,160.0
+machine learning model,java,large,16.9,844.0
+machine learning model,django,large,21.3,1065.0
+social media integration,java,small,3.4,170.0
+data analytics,java,large,23.6,1180.0
+login,node.js,small,5.9,295.0
+speech recognition,node.js,medium,7.6,380.0
+speech recognition,ruby on rails,medium,8.6,430.0
+inventory management,ruby on rails,medium,7.6,380.0
+inventory management,fastapi,small,3.1,155.0
+dashboard,flask,medium,9.6,480.0
+chatbot,ruby on rails,medium,10.7,535.0
+image processing,flask,large,21.8,1090.0
+payment gateway,node.js,small,5.4,270.0
+user management,fastapi,medium,10.2,509.0
+dashboard,django,small,3.6,180.0
+payment gateway,fastapi,medium,9.0,450.0
+recommendation system,ruby on rails,small,4.2,210.0
+inventory management,ruby on rails,medium,10.6,530.0
+e-commerce backend,java,large,13.7,685.0
+chatbot,python,small,3.9,195.0
+activity monitoring,node.js,small,3.1,155.0
+recommendation system,react,small,3.3,165.0
+recommendation system,ruby on rails,large,19.4,969.0
+recommendation system,flask,large,20.2,1010.0
+recommendation system,node.js,medium,11.8,590.0
+data analytics,angular,small,4.4,220.0
+chatbot,react,small,5.7,285.0
+inventory management,node.js,large,18.8,940.0
+payment gateway,react,large,23.3,1165.0
+e-commerce backend,node.js,small,5.5,275.0
+voice assistant,angular,large,18.8,940.0
+voice assistant,flask,medium,6.8,340.0
+dashboard,angular,large,16.4,819.0
+e-commerce backend,c#,medium,8.7,434.0
+login,java,large,19.3,965.0
+user management,angular,large,23.5,1175.0
+dashboard,python,small,4.0,200.0
+data analytics,c#,small,4.5,225.0
+machine learning model,node.js,medium,11.2,560.0
+login,django,medium,9.0,450.0
+inventory management,ruby on rails,small,3.8,190.0
+recommendation system,java,large,21.7,1085.0
+social media integration,ruby on rails,large,17.2,860.0
+voice assistant,react,small,3.7,185.0
+login,java,small,5.5,275.0
+voice assistant,angular,medium,6.9,345.0
+image processing,python,large,18.4,919.0
+payment gateway,ruby on rails,medium,11.9,595.0
+recommendation system,django,medium,10.5,525.0
+speech recognition,angular,large,13.1,655.0
+payment gateway,django,medium,10.3,515.0
+speech recognition,react,medium,7.6,380.0
+image processing,django,small,4.4,220.0
+voice assistant,react,large,14.9,745.0
+payment gateway,python,medium,10.4,520.0
+activity monitoring,c#,medium,11.8,590.0
+data analytics,java,large,16.4,819.0
+chatbot,react,medium,7.5,375.0
+data analytics,django,large,22.3,1115.0
+activity monitoring,django,large,23.6,1180.0
+e-commerce backend,django,medium,6.8,340.0
+payment gateway,java,medium,9.0,450.0
+data analytics,react,small,4.3,215.0
+speech recognition,python,small,5.7,285.0
+dashboard,angular,small,4.8,240.0
+login,c#,medium,6.2,310.0
+social media integration,c#,medium,6.1,305.0
+data analytics,node.js,large,23.6,1180.0
+voice assistant,node.js,medium,8.9,445.0
+activity monitoring,java,large,19.5,975.0
+chatbot,ruby on rails,large,21.6,1080.0
+image processing,react,small,4.9,245.0
+machine learning model,django,small,5.0,250.0
+social media integration,django,small,3.6,180.0
+voice assistant,ruby on rails,large,23.9,1195.0
+social media integration,java,medium,6.7,335.0
+dashboard,flask,medium,7.5,375.0
+data analytics,java,medium,9.5,475.0
+chatbot,java,medium,7.2,360.0
+social media integration,angular,small,4.5,225.0
+image processing,ruby on rails,small,3.2,160.0
+speech recognition,python,medium,11.5,575.0
+e-commerce backend,python,large,19.1,955.0
+machine learning model,java,small,4.7,235.0
+user management,react,large,13.6,680.0
+user management,ruby on rails,large,13.7,685.0
+social media integration,ruby on rails,medium,9.9,495.0
+inventory management,java,small,5.8,290.0
+user management,flask,small,4.1,204.0
+e-commerce backend,python,large,22.8,1140.0
+image processing,python,medium,8.4,420.0
+recommendation system,react,large,16.7,835.0
+login,django,large,23.8,1190.0
+speech recognition,angular,small,5.9,295.0
+recommendation system,react,small,5.3,265.0
+activity monitoring,c#,small,4.9,245.0
+machine learning model,ruby on rails,medium,6.8,340.0
+inventory management,react,large,14.6,730.0
+login,angular,small,5.7,285.0
+machine learning model,python,small,4.6,229.0
+data analytics,flask,large,12.7,635.0
+payment gateway,c#,small,4.3,215.0
+login,angular,large,12.9,645.0
+user management,fastapi,large,16.1,805.0
+dashboard,django,small,5.3,265.0
+speech recognition,angular,small,5.8,290.0
+dashboard,angular,large,21.0,1050.0
+voice assistant,node.js,small,3.1,155.0
+payment gateway,react,medium,8.0,400.0
+user management,react,medium,11.6,580.0
+social media integration,python,medium,7.7,385.0
+machine learning model,fastapi,large,12.1,605.0
+inventory management,react,large,12.2,610.0
+chatbot,c#,medium,9.4,470.0
+social media integration,fastapi,large,18.3,915.0
+data analytics,python,large,15.2,760.0
+social media integration,java,medium,11.5,575.0
+dashboard,react,medium,11.3,565.0
+recommendation system,flask,medium,8.4,420.0
+e-commerce backend,ruby on rails,medium,8.5,425.0
+recommendation system,java,small,5.8,290.0
+activity monitoring,ruby on rails,small,3.9,195.0
+chatbot,django,medium,10.4,520.0
+image processing,node.js,large,18.1,905.0
+image processing,react,large,13.8,690.0
+login,django,large,22.5,1125.0
+data analytics,fastapi,large,19.5,975.0
+speech recognition,ruby on rails,large,21.8,1090.0
+machine learning model,fastapi,large,21.6,1080.0
+dashboard,ruby on rails,small,5.5,275.0
+user management,c#,small,5.2,260.0
+payment gateway,angular,large,17.3,865.0
+image processing,flask,small,4.1,204.0
+payment gateway,java,large,15.2,760.0
+data analytics,c#,large,21.6,1080.0
+machine learning model,angular,large,14.4,720.0
+voice assistant,fastapi,large,19.5,975.0
+social media integration,ruby on rails,large,15.0,750.0
+voice assistant,java,large,21.3,1065.0
+dashboard,python,small,4.6,229.0
+login,node.js,medium,7.3,365.0
+voice assistant,node.js,medium,8.1,405.0
+activity monitoring,flask,large,13.6,680.0
+inventory management,react,large,22.8,1140.0
+recommendation system,java,large,18.4,919.0
+chatbot,fastapi,small,3.7,185.0
+login,c#,medium,8.9,445.0
+voice assistant,fastapi,small,5.1,254.0
+data analytics,fastapi,small,5.5,275.0
+e-commerce backend,flask,small,5.3,265.0
+social media integration,angular,medium,11.5,575.0
+machine learning model,python,medium,11.9,595.0
+user management,node.js,medium,11.1,555.0
+data analytics,c#,small,3.3,165.0
+recommendation system,fastapi,medium,11.2,560.0
+voice assistant,node.js,large,14.8,740.0
+activity monitoring,node.js,medium,6.0,300.0
+e-commerce backend,java,large,22.7,1135.0
+activity monitoring,ruby on rails,medium,6.8,340.0
+voice assistant,react,medium,11.1,555.0
+voice assistant,django,large,21.4,1070.0
+e-commerce backend,python,medium,11.1,555.0
+image processing,python,small,3.8,190.0
+inventory management,flask,small,4.2,210.0
+e-commerce backend,node.js,small,3.0,150.0
+image processing,react,medium,8.9,445.0
+payment gateway,react,medium,6.3,315.0
+user management,django,large,19.5,975.0
+inventory management,java,small,5.8,290.0
+e-commerce backend,flask,large,12.1,605.0
+inventory management,java,medium,6.6,330.0
+user management,angular,medium,7.9,395.0
+image processing,flask,large,20.9,1045.0
+e-commerce backend,flask,medium,8.0,400.0
+social media integration,node.js,small,5.7,285.0
+user management,fastapi,medium,11.2,560.0
+image processing,flask,large,21.1,1055.0
+e-commerce backend,react,medium,11.7,585.0
+dashboard,react,small,5.3,265.0
+voice assistant,react,medium,7.0,350.0
+dashboard,python,small,4.4,220.0
+chatbot,c#,small,3.7,185.0
+image processing,c#,medium,6.1,305.0
+social media integration,python,medium,6.6,330.0
+recommendation system,react,medium,10.9,545.0
+payment gateway,ruby on rails,medium,8.5,425.0
+dashboard,django,large,19.3,965.0
+speech recognition,django,large,13.0,650.0
+recommendation system,django,large,16.5,825.0
+image processing,node.js,medium,7.2,360.0
+user management,c#,medium,9.3,465.0
+login,django,small,5.4,270.0
+activity monitoring,ruby on rails,medium,9.8,490.0
+dashboard,ruby on rails,medium,9.3,465.0
+voice assistant,flask,medium,12.0,600.0
+speech recognition,c#,large,17.0,850.0
+dashboard,node.js,small,4.1,204.0
+image processing,ruby on rails,small,5.6,280.0
+voice assistant,node.js,large,15.3,765.0
+user management,python,large,20.4,1019.0
+login,java,large,12.4,620.0
+machine learning model,django,small,3.3,165.0
+image processing,java,small,3.2,160.0
+login,fastapi,medium,7.8,390.0
+payment gateway,node.js,large,22.2,1110.0
+user management,flask,small,4.8,240.0
+activity monitoring,angular,small,3.1,155.0
+activity monitoring,ruby on rails,medium,10.1,505.0
+login,java,medium,10.6,530.0
+social media integration,fastapi,medium,6.2,310.0
+chatbot,react,small,4.9,245.0
+payment gateway,java,small,4.9,245.0
+machine learning model,python,medium,7.3,365.0
+data analytics,java,large,13.5,675.0
+user management,node.js,small,4.2,210.0
+machine learning model,java,large,17.7,885.0
+machine learning model,python,small,3.7,185.0
+login,ruby on rails,small,5.0,250.0
+social media integration,node.js,large,13.0,650.0
+payment gateway,angular,large,21.9,1095.0
+e-commerce backend,ruby on rails,medium,11.2,560.0
+e-commerce backend,django,large,18.8,940.0
+speech recognition,java,large,17.2,860.0
+login,node.js,medium,8.0,400.0
+inventory management,c#,medium,8.1,405.0
+recommendation system,node.js,large,12.4,620.0
+machine learning model,django,medium,8.9,445.0
+activity monitoring,fastapi,large,14.5,725.0
+login,node.js,small,5.6,280.0
+data analytics,react,small,3.5,175.0
+machine learning model,flask,small,5.0,250.0
+machine learning model,java,large,12.6,630.0
+payment gateway,fastapi,large,19.8,990.0
+image processing,angular,medium,9.0,450.0
+activity monitoring,fastapi,large,22.4,1120.0
+data analytics,flask,small,3.4,170.0
+dashboard,python,small,5.7,285.0
+user management,python,large,19.8,990.0
+image processing,c#,small,5.2,260.0
+chatbot,python,large,22.7,1135.0

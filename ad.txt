@@ -1,0 +1,113 @@
+def generate_module_details(text):
+    while True:
+        try:
+            detected_frontend, detected_backend = detect_languages(text)
+
+            time_estimations = []
+            cost_estimations = []
+
+
+            model = genai.GenerativeModel("gemini-1.5-flash")
+            # Check for specific keywords related to website creation or development
+            website_keywords = [
+                "website", "user authentication", "content management", "admin panel",
+                "product catalog", "shopping cart", "checkout", "payment gateway", 
+                "user dashboard", "profile management", "order tracking", "search functionality", 
+                "feedback system", "multi-language support", "SEO optimization"
+            ]
+
+            # Detect if any of the keywords are found in the text
+            detected_features = [kw for kw in website_keywords if re.search(r'\b' + re.escape(kw) + r'\b', text, re.IGNORECASE)]
+            admin_keywords = ["admin panel", "admin dashboard", "admin"]
+            admin_side_detected = any(re.search(r'\b' + re.escape(kw) + r'\b', text, re.IGNORECASE) for kw in admin_keywords)
+
+            # Build the prompt to generate the module list
+            prompt_modules = f"""
+            Based on the following text, generate a comprehensive list of module names that represent core functionalities of the system. Each module name should be short, clear, accurate, and typically a single word or a simple phrase like 'login', 'register', 'dashboard', etc.
+
+            **Text:**
+            {text}
+            Please generate at least 10 module names. If the text relates to a specific domain like eCommerce or CRM, include relevant module names.
+            """
+
+            # If specific features are detected, adjust the prompt accordingly
+            if detected_features:
+                prompt_modules += f"""
+                The following website features were detected in the text: {', '.join(detected_features)}.
+                Please focus on generating modules related to website functionalities, such as 'user authentication', 'product catalog', 'shopping cart', 'payment gateway', 'admin panel', etc.
+                """
+            if admin_side_detected:
+                prompt_modules += """
+                The following admin-related features were detected. Please focus on generating modules relevant to the admin side, such as 'admin dashboard', 'user management', 'order management', 'product management', 'report generation', etc.
+                """
+
+            response_modules = model.generate_content([prompt_modules])
+            module_names = [name.strip().capitalize() for name in response_modules.text.strip().split("\n") if name.strip()]
+
+            if not module_names:
+                logging.warning("No module names found. Retrying...")
+                continue
+            module_details = []
+
+            all_frontend_details = []
+            all_backend_details = []
+
+            for i, module in enumerate(module_names):
+                if i == 0 or i == len(module_names) - 1:
+                    continue
+
+                # print(module)
+
+                prompt_complexity = f"""
+                Based on the module name '{module}' and the technology '{detected_backend}, {detected_frontend}', provide an estimate of the time required to create this module in hours. The development team is fully professional and fully experienced. Return only the time in hours and no other text.
+
+                Module Name: {module}
+                Technology: {detected_backend} {detected_frontend}
+                """
+                response_complexity = model.generate_content([prompt_complexity])
+                time_in_hours = float(response_complexity.text.strip())
+
+                # Assuming cost is calculated based on time and an hourly rate
+                hourly_rate = 50  # in rupees
+                cost = time_in_hours * hourly_rate
+
+                time_estimations.append(time_in_hours)
+                cost_estimations.append(cost)
+
+
+                # Add the module details to the list
+                module_details.append({
+                    "module_name": module,
+                    "frontend": detected_frontend,
+                    "backend": detected_backend,
+                    "time" : time_in_hours,
+                    "cost": cost,
+                    "complexity": "NA"
+                })
+
+            if module_details:
+                return module_details
+            else:
+                logging.warning("Module details are empty. Retrying...")
+
+
+        except Exception as e:
+            if "429" in str(e):
+                rotate_api_key()
+            else:
+                logging.error(f"Error during module generation: {e}")
+                raise e
+                
+
+
+
+
+       
+            
+            4. **Module Details**: For each module, estimate:
+               - Complexity (Small/Medium/Large)
+               - Estimated KLOC (thousands of lines of code)
+               - Development time (in hours)
+               - Development cost (in INR, assuming ₹50 per hour)
+
+            Ensure the response follows this structured format:

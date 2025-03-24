@@ -1,0 +1,9 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/bornsolutions/public_html/4Born-Projects/Dec-Work/quickmake-ai.businessvala.site"
+PassengerBaseURI "/"
+PassengerPython "/home/bornsolutions/virtualenv/public_html/4Born-Projects/Dec-Work/quickmake-ai.businessvala.site/3.12/bin/python"
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END

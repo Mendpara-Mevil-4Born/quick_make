@@ -1,0 +1,387 @@
+[
+    {
+        "Module Name": "User Registration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Home Screen",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Car Listing",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Insurance Module",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Loan Module",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Buy Used Cars",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Car Details",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "My Profile",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "My Cars",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Car Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Profile Editing",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Payment Gateway",
+        "Technology": "PHP",
+        "Time": 9.76,
+        "Cost": 487.19,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Admin Panel",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Management",
+        "Technology": "PHP",
+        "Time": 11.24,
+        "Cost": 562.94,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Car Management (Admin)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Insurance Management (Admin)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Loan Management (Admin)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Report Generation",
+        "Technology": "PHP",
+        "Time": 10.46,
+        "Cost": 523.17,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Notification System",
+        "Technology": "PHP",
+        "Time": 9.58,
+        "Cost": 477.72,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Search & Filter",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "OTP Verification",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Data Analytics",
+        "Technology": "PHP",
+        "Time": 8.8,
+        "Cost": 437.94,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Feedback",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Settings",
+        "Technology": "PHP",
+        "Time": 10.8,
+        "Cost": 540.22,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Help & Support",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Push Notifications",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Social Media Integration (Instagram, WhatsApp)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Location Services",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Progress Bar (Registration)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Image Upload (Insurance)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Terms & Conditions",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Privacy Policy",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Contact Us",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "FAQ",
+        "Technology": "PHP",
+        "Time": 9.02,
+        "Cost": 449.31,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Registration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Home",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Cars",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Insurance",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Loans",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Authentication",
+        "Technology": "PHP",
+        "Time": 11.2,
+        "Cost": 561.05,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Profile Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Insurance Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Loan Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Search/Filtering (Cars)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Admin Dashboard",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Reporting/Analytics",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Social Media Integration (WhatsApp, Instagram)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Progress Bar",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Help/FAQ",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Terms of Service",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Data Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Security",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Backend API",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Database Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Maintenance/Updates",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    }
+]

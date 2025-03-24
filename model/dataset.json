@@ -1,0 +1,3817 @@
+[
+    {
+        "Module Name": "login",
+        "Technology": "PHP",
+        "Complexity": "Small",
+        "Time": 3.37,
+        "Cost": 182.36
+    },
+    {
+        "Module Name": "register",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 2.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 10.11,
+        "Cost": 600.86
+    },
+    {
+        "Module Name": "profile",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 5.92,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "settings",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 1.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "content management",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 43.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "user authentication",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 0.3,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "authorization",
+        "Technology": "PHP",
+        "Complexity": "medium    ",
+        "Time": 0.3,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "search",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 0.45,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "navigation",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 1.25,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "sitemap",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 4.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "feedback",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 0.25,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "contact",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 0.25,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "newsletter subscription",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 0.25,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "help",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 1.01,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "faq",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 1.0,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "product catalog",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 8.92,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "shopping cart",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 9.92,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "checkout",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 8.92,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "PHP",
+        "Complexity": "large",
+        "Time": 18.11,
+        "Cost": 907.86
+    },
+    {
+        "Module Name": "order management",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 8.92,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 8.92,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "shipping",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 8.92,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "returns",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 4.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "customer accounts",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 8.92,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "reviews & ratings",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 8.92,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "wishlists",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 4.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "promotions & discounts",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 8.92,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "coupons",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 8.92,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "admin login",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 4.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 4.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "content management (admin)",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 4.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "product management",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 4.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "order management (admin)",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 4.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "report generation",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 8.92,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "analytics dashboard",
+        "Technology": "PHP",
+        "Complexity": "large",
+        "Time": 18.11,
+        "Cost": 907.86
+    },
+    {
+        "Module Name": "settings (admin)",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 8.92,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "seo management",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 4.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "security management",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 4.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "file management",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 4.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "blog management (if applicable)",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 8.92,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "cms integrations",
+        "Technology": "PHP",
+        "Complexity": "medium",
+        "Time": 8.92,
+        "Cost": 444.62
+    },
+    {
+        "Module Name": "api integrations",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 4.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "payment history",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 4.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "notification system",
+        "Technology": "PHP",
+        "Complexity": "small",
+        "Time": 4.54,
+        "Cost": 227.4
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "angular",
+        "Complexity": "medium",
+        "Time": 10.5,
+        "Cost": 525.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 17.7,
+        "Cost": 885.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "fastapi",
+        "Complexity": "small",
+        "Time": 3.3,
+        "Cost": 165.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "angular",
+        "Complexity": "small",
+        "Time": 5.3,
+        "Cost": 265.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 19.7,
+        "Cost": 985.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 4.3,
+        "Cost": 215.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 9.9,
+        "Cost": 495.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 12.6,
+        "Cost": 630.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 11.5,
+        "Cost": 575.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 4.5,
+        "Cost": 225.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 11.6,
+        "Cost": 580.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 3.6,
+        "Cost": 180.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 21.4,
+        "Cost": 1070.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 9.4,
+        "Cost": 470.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 13.4,
+        "Cost": 670.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "flask",
+        "Complexity": "medium",
+        "Time": 11.1,
+        "Cost": 555.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 8.0,
+        "Cost": 400.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 3.1,
+        "Cost": 155.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "ruby on rails",
+        "Complexity": "large",
+        "Time": 15.3,
+        "Cost": 765.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "fastapi",
+        "Complexity": "medium",
+        "Time": 9.8,
+        "Cost": 490.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "python",
+        "Complexity": "small",
+        "Time": 3.8,
+        "Cost": 190.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 7.3,
+        "Cost": 365.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 9.3,
+        "Cost": 465.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 11.6,
+        "Cost": 580.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 11.8,
+        "Cost": 590.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 8.6,
+        "Cost": 430.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 6.8,
+        "Cost": 340.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 13.2,
+        "Cost": 660.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "fastapi",
+        "Complexity": "small",
+        "Time": 4.1,
+        "Cost": 204.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 3.9,
+        "Cost": 195.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "fastapi",
+        "Complexity": "small",
+        "Time": 3.6,
+        "Cost": 180.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 4.7,
+        "Cost": 235.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 16.1,
+        "Cost": 805.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "ruby on rails",
+        "Complexity": "large",
+        "Time": 21.1,
+        "Cost": 1055.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 10.7,
+        "Cost": 535.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "c#",
+        "Complexity": "large",
+        "Time": 16.9,
+        "Cost": 844.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "c#",
+        "Complexity": "large",
+        "Time": 19.1,
+        "Cost": 955.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 6.4,
+        "Cost": 320.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "angular",
+        "Complexity": "small",
+        "Time": 5.6,
+        "Cost": 280.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 6.2,
+        "Cost": 310.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 7.2,
+        "Cost": 360.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 23.6,
+        "Cost": 1180.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 19.1,
+        "Cost": 955.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 6.2,
+        "Cost": 310.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "django",
+        "Complexity": "small",
+        "Time": 3.0,
+        "Cost": 150.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "flask",
+        "Complexity": "small",
+        "Time": 5.4,
+        "Cost": 270.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 22.6,
+        "Cost": 1130.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 5.8,
+        "Cost": 290.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "django",
+        "Complexity": "medium",
+        "Time": 9.2,
+        "Cost": 459.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 9.9,
+        "Cost": 495.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "fastapi",
+        "Complexity": "small",
+        "Time": 4.9,
+        "Cost": 245.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 7.4,
+        "Cost": 370.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 7.3,
+        "Cost": 365.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "flask",
+        "Complexity": "small",
+        "Time": 3.6,
+        "Cost": 180.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "c#",
+        "Complexity": "small",
+        "Time": 4.4,
+        "Cost": 220.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "django",
+        "Complexity": "small",
+        "Time": 5.3,
+        "Cost": 265.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "fastapi",
+        "Complexity": "small",
+        "Time": 3.7,
+        "Cost": 185.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "fastapi",
+        "Complexity": "small",
+        "Time": 4.7,
+        "Cost": 235.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 5.0,
+        "Cost": 250.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 9.5,
+        "Cost": 475.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "node.js",
+        "Complexity": "large",
+        "Time": 23.7,
+        "Cost": 1185.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "django",
+        "Complexity": "medium",
+        "Time": 6.5,
+        "Cost": 325.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 6.8,
+        "Cost": 340.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 17.8,
+        "Cost": 890.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 10.5,
+        "Cost": 525.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "ruby on rails",
+        "Complexity": "small",
+        "Time": 3.8,
+        "Cost": 190.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "django",
+        "Complexity": "medium",
+        "Time": 8.3,
+        "Cost": 415.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 20.8,
+        "Cost": 1040.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "ruby on rails",
+        "Complexity": "small",
+        "Time": 3.9,
+        "Cost": 195.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 6.9,
+        "Cost": 345.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "flask",
+        "Complexity": "large",
+        "Time": 13.7,
+        "Cost": 685.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "flask",
+        "Complexity": "medium",
+        "Time": 10.2,
+        "Cost": 509.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "python",
+        "Complexity": "small",
+        "Time": 6.0,
+        "Cost": 300.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 15.6,
+        "Cost": 780.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 9.1,
+        "Cost": 455.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "flask",
+        "Complexity": "medium",
+        "Time": 11.8,
+        "Cost": 590.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 20.6,
+        "Cost": 1030.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 7.8,
+        "Cost": 390.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 11.1,
+        "Cost": 555.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 11.8,
+        "Cost": 590.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "react",
+        "Complexity": "large",
+        "Time": 21.4,
+        "Cost": 1070.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "flask",
+        "Complexity": "small",
+        "Time": 3.3,
+        "Cost": 165.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 13.2,
+        "Cost": 660.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "node.js",
+        "Complexity": "large",
+        "Time": 16.8,
+        "Cost": 840.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 13.9,
+        "Cost": 695.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 7.8,
+        "Cost": 390.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "angular",
+        "Complexity": "medium",
+        "Time": 6.5,
+        "Cost": 325.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "flask",
+        "Complexity": "medium",
+        "Time": 10.7,
+        "Cost": 535.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 9.9,
+        "Cost": 495.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 3.3,
+        "Cost": 165.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 23.6,
+        "Cost": 1180.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 22.9,
+        "Cost": 1145.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "flask",
+        "Complexity": "medium",
+        "Time": 9.2,
+        "Cost": 459.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 10.4,
+        "Cost": 520.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 4.3,
+        "Cost": 215.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "c#",
+        "Complexity": "large",
+        "Time": 13.3,
+        "Cost": 665.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 4.3,
+        "Cost": 215.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 23.6,
+        "Cost": 1180.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "angular",
+        "Complexity": "medium",
+        "Time": 7.6,
+        "Cost": 380.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "flask",
+        "Complexity": "large",
+        "Time": 20.9,
+        "Cost": 1045.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "node.js",
+        "Complexity": "large",
+        "Time": 13.7,
+        "Cost": 685.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 13.2,
+        "Cost": 660.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 8.8,
+        "Cost": 440.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "fastapi",
+        "Complexity": "small",
+        "Time": 5.3,
+        "Cost": 265.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 3.0,
+        "Cost": 150.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 6.7,
+        "Cost": 335.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "fastapi",
+        "Complexity": "small",
+        "Time": 3.6,
+        "Cost": 180.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 17.9,
+        "Cost": 894.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 19.1,
+        "Cost": 955.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 5.7,
+        "Cost": 285.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "flask",
+        "Complexity": "small",
+        "Time": 4.8,
+        "Cost": 240.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "react",
+        "Complexity": "large",
+        "Time": 13.5,
+        "Cost": 675.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 18.1,
+        "Cost": 905.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 4.4,
+        "Cost": 220.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 5.6,
+        "Cost": 280.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "fastapi",
+        "Complexity": "medium",
+        "Time": 8.7,
+        "Cost": 434.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "c#",
+        "Complexity": "small",
+        "Time": 3.2,
+        "Cost": 160.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "react",
+        "Complexity": "large",
+        "Time": 17.2,
+        "Cost": 860.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 7.6,
+        "Cost": 380.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "django",
+        "Complexity": "small",
+        "Time": 3.5,
+        "Cost": 175.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 9.9,
+        "Cost": 495.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 22.3,
+        "Cost": 1115.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 9.4,
+        "Cost": 470.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 10.5,
+        "Cost": 525.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "django",
+        "Complexity": "medium",
+        "Time": 10.9,
+        "Cost": 545.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 9.4,
+        "Cost": 470.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 10.9,
+        "Cost": 545.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 12.8,
+        "Cost": 640.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 10.5,
+        "Cost": 525.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "django",
+        "Complexity": "small",
+        "Time": 5.4,
+        "Cost": 270.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 20.2,
+        "Cost": 1010.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 11.4,
+        "Cost": 570.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "django",
+        "Complexity": "medium",
+        "Time": 10.1,
+        "Cost": 505.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "angular",
+        "Complexity": "small",
+        "Time": 4.1,
+        "Cost": 204.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 4.8,
+        "Cost": 240.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 10.8,
+        "Cost": 540.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "ruby on rails",
+        "Complexity": "small",
+        "Time": 5.2,
+        "Cost": 260.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "django",
+        "Complexity": "small",
+        "Time": 3.7,
+        "Cost": 185.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "c#",
+        "Complexity": "large",
+        "Time": 20.4,
+        "Cost": 1019.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "flask",
+        "Complexity": "medium",
+        "Time": 9.1,
+        "Cost": 455.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 8.3,
+        "Cost": 415.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 8.3,
+        "Cost": 415.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 18.9,
+        "Cost": 944.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 9.6,
+        "Cost": 480.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 8.5,
+        "Cost": 425.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "fastapi",
+        "Complexity": "small",
+        "Time": 4.7,
+        "Cost": 235.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 5.7,
+        "Cost": 285.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 7.5,
+        "Cost": 375.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "flask",
+        "Complexity": "medium",
+        "Time": 11.3,
+        "Cost": 565.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "python",
+        "Complexity": "small",
+        "Time": 3.7,
+        "Cost": 185.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "flask",
+        "Complexity": "small",
+        "Time": 5.3,
+        "Cost": 265.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 7.1,
+        "Cost": 355.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "node.js",
+        "Complexity": "large",
+        "Time": 21.0,
+        "Cost": 1050.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "angular",
+        "Complexity": "small",
+        "Time": 3.6,
+        "Cost": 180.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "ruby on rails",
+        "Complexity": "large",
+        "Time": 13.9,
+        "Cost": 695.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 15.7,
+        "Cost": 785.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "django",
+        "Complexity": "medium",
+        "Time": 9.9,
+        "Cost": 495.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "react",
+        "Complexity": "large",
+        "Time": 17.4,
+        "Cost": 869.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 4.2,
+        "Cost": 210.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "c#",
+        "Complexity": "large",
+        "Time": 16.9,
+        "Cost": 844.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "node.js",
+        "Complexity": "large",
+        "Time": 13.7,
+        "Cost": 685.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "ruby on rails",
+        "Complexity": "large",
+        "Time": 12.2,
+        "Cost": 610.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "react",
+        "Complexity": "large",
+        "Time": 15.8,
+        "Cost": 790.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 8.6,
+        "Cost": 430.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 7.1,
+        "Cost": 355.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "flask",
+        "Complexity": "small",
+        "Time": 3.1,
+        "Cost": 155.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 4.2,
+        "Cost": 210.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "angular",
+        "Complexity": "medium",
+        "Time": 9.7,
+        "Cost": 484.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 6.1,
+        "Cost": 305.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 15.7,
+        "Cost": 785.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 14.4,
+        "Cost": 720.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 8.2,
+        "Cost": 409.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 12.5,
+        "Cost": 625.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "python",
+        "Complexity": "small",
+        "Time": 6.0,
+        "Cost": 300.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "flask",
+        "Complexity": "large",
+        "Time": 17.5,
+        "Cost": 875.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "django",
+        "Complexity": "medium",
+        "Time": 10.9,
+        "Cost": 545.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 9.5,
+        "Cost": 475.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 10.6,
+        "Cost": 530.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 4.4,
+        "Cost": 220.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "fastapi",
+        "Complexity": "small",
+        "Time": 5.8,
+        "Cost": 290.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "django",
+        "Complexity": "small",
+        "Time": 5.8,
+        "Cost": 290.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 23.6,
+        "Cost": 1180.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 13.1,
+        "Cost": 655.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "fastapi",
+        "Complexity": "small",
+        "Time": 5.5,
+        "Cost": 275.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 4.2,
+        "Cost": 210.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 4.9,
+        "Cost": 245.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 20.3,
+        "Cost": 1015.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "ruby on rails",
+        "Complexity": "small",
+        "Time": 3.4,
+        "Cost": 170.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 11.6,
+        "Cost": 580.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 11.6,
+        "Cost": 580.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 4.2,
+        "Cost": 210.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 4.8,
+        "Cost": 240.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 4.7,
+        "Cost": 235.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 23.1,
+        "Cost": 1155.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 12.2,
+        "Cost": 610.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 9.1,
+        "Cost": 455.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "django",
+        "Complexity": "small",
+        "Time": 3.1,
+        "Cost": 155.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 15.0,
+        "Cost": 750.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "ruby on rails",
+        "Complexity": "large",
+        "Time": 22.1,
+        "Cost": 1105.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "flask",
+        "Complexity": "small",
+        "Time": 5.7,
+        "Cost": 285.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 3.2,
+        "Cost": 160.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 7.4,
+        "Cost": 370.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 16.3,
+        "Cost": 815.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "flask",
+        "Complexity": "large",
+        "Time": 15.8,
+        "Cost": 790.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 20.7,
+        "Cost": 1035.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 19.0,
+        "Cost": 950.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "django",
+        "Complexity": "medium",
+        "Time": 9.6,
+        "Cost": 480.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 16.9,
+        "Cost": 844.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "react",
+        "Complexity": "large",
+        "Time": 13.4,
+        "Cost": 670.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 22.3,
+        "Cost": 1115.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 14.7,
+        "Cost": 735.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "react",
+        "Complexity": "large",
+        "Time": 12.4,
+        "Cost": 620.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 6.7,
+        "Cost": 335.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 9.1,
+        "Cost": 455.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 8.3,
+        "Cost": 415.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "node.js",
+        "Complexity": "large",
+        "Time": 20.0,
+        "Cost": 1000.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "python",
+        "Complexity": "small",
+        "Time": 4.0,
+        "Cost": 200.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 6.6,
+        "Cost": 330.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "node.js",
+        "Complexity": "large",
+        "Time": 15.1,
+        "Cost": 755.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "angular",
+        "Complexity": "small",
+        "Time": 3.8,
+        "Cost": 190.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 19.5,
+        "Cost": 975.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "fastapi",
+        "Complexity": "medium",
+        "Time": 7.2,
+        "Cost": 360.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 18.5,
+        "Cost": 925.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 10.2,
+        "Cost": 509.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "ruby on rails",
+        "Complexity": "small",
+        "Time": 5.0,
+        "Cost": 250.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "fastapi",
+        "Complexity": "medium",
+        "Time": 6.1,
+        "Cost": 305.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 22.1,
+        "Cost": 1105.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 22.9,
+        "Cost": 1145.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 7.8,
+        "Cost": 390.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 22.9,
+        "Cost": 1145.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 14.3,
+        "Cost": 715.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 10.1,
+        "Cost": 505.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 23.2,
+        "Cost": 1160.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "flask",
+        "Complexity": "medium",
+        "Time": 10.4,
+        "Cost": 520.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 23.0,
+        "Cost": 1150.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "python",
+        "Complexity": "small",
+        "Time": 4.2,
+        "Cost": 210.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 13.7,
+        "Cost": 685.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "c#",
+        "Complexity": "small",
+        "Time": 5.8,
+        "Cost": 290.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "flask",
+        "Complexity": "medium",
+        "Time": 6.8,
+        "Cost": 340.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "angular",
+        "Complexity": "small",
+        "Time": 4.9,
+        "Cost": 245.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "fastapi",
+        "Complexity": "small",
+        "Time": 4.6,
+        "Cost": 229.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "c#",
+        "Complexity": "large",
+        "Time": 13.0,
+        "Cost": 650.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "flask",
+        "Complexity": "small",
+        "Time": 6.0,
+        "Cost": 300.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "angular",
+        "Complexity": "medium",
+        "Time": 10.6,
+        "Cost": 530.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 21.4,
+        "Cost": 1070.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 4.2,
+        "Cost": 210.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "ruby on rails",
+        "Complexity": "large",
+        "Time": 13.7,
+        "Cost": 685.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 20.6,
+        "Cost": 1030.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 7.2,
+        "Cost": 360.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 17.8,
+        "Cost": 890.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 3.5,
+        "Cost": 175.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 10.6,
+        "Cost": 530.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 17.9,
+        "Cost": 894.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 17.5,
+        "Cost": 875.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "django",
+        "Complexity": "small",
+        "Time": 3.3,
+        "Cost": 165.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "ruby on rails",
+        "Complexity": "large",
+        "Time": 22.7,
+        "Cost": 1135.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "c#",
+        "Complexity": "small",
+        "Time": 4.1,
+        "Cost": 204.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 4.9,
+        "Cost": 245.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 20.0,
+        "Cost": 1000.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 3.2,
+        "Cost": 160.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 16.9,
+        "Cost": 844.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 21.3,
+        "Cost": 1065.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 3.4,
+        "Cost": 170.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 23.6,
+        "Cost": 1180.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 5.9,
+        "Cost": 295.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 7.6,
+        "Cost": 380.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 8.6,
+        "Cost": 430.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 7.6,
+        "Cost": 380.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "fastapi",
+        "Complexity": "small",
+        "Time": 3.1,
+        "Cost": 155.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "flask",
+        "Complexity": "medium",
+        "Time": 9.6,
+        "Cost": 480.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 10.7,
+        "Cost": 535.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "flask",
+        "Complexity": "large",
+        "Time": 21.8,
+        "Cost": 1090.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 5.4,
+        "Cost": 270.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "fastapi",
+        "Complexity": "medium",
+        "Time": 10.2,
+        "Cost": 509.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "django",
+        "Complexity": "small",
+        "Time": 3.6,
+        "Cost": 180.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "fastapi",
+        "Complexity": "medium",
+        "Time": 9.0,
+        "Cost": 450.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "ruby on rails",
+        "Complexity": "small",
+        "Time": 4.2,
+        "Cost": 210.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 10.6,
+        "Cost": 530.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 13.7,
+        "Cost": 685.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "python",
+        "Complexity": "small",
+        "Time": 3.9,
+        "Cost": 195.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 3.1,
+        "Cost": 155.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 3.3,
+        "Cost": 165.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "ruby on rails",
+        "Complexity": "large",
+        "Time": 19.4,
+        "Cost": 969.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "flask",
+        "Complexity": "large",
+        "Time": 20.2,
+        "Cost": 1010.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 11.8,
+        "Cost": 590.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "angular",
+        "Complexity": "small",
+        "Time": 4.4,
+        "Cost": 220.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 5.7,
+        "Cost": 285.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "node.js",
+        "Complexity": "large",
+        "Time": 18.8,
+        "Cost": 940.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "react",
+        "Complexity": "large",
+        "Time": 23.3,
+        "Cost": 1165.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 5.5,
+        "Cost": 275.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 18.8,
+        "Cost": 940.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "flask",
+        "Complexity": "medium",
+        "Time": 6.8,
+        "Cost": 340.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 16.4,
+        "Cost": 819.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 8.7,
+        "Cost": 434.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 19.3,
+        "Cost": 965.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 23.5,
+        "Cost": 1175.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "python",
+        "Complexity": "small",
+        "Time": 4.0,
+        "Cost": 200.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "c#",
+        "Complexity": "small",
+        "Time": 4.5,
+        "Cost": 225.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 11.2,
+        "Cost": 560.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "django",
+        "Complexity": "medium",
+        "Time": 9.0,
+        "Cost": 450.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "ruby on rails",
+        "Complexity": "small",
+        "Time": 3.8,
+        "Cost": 190.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 21.7,
+        "Cost": 1085.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "ruby on rails",
+        "Complexity": "large",
+        "Time": 17.2,
+        "Cost": 860.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 3.7,
+        "Cost": 185.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 5.5,
+        "Cost": 275.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "angular",
+        "Complexity": "medium",
+        "Time": 6.9,
+        "Cost": 345.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 18.4,
+        "Cost": 919.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 11.9,
+        "Cost": 595.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "django",
+        "Complexity": "medium",
+        "Time": 10.5,
+        "Cost": 525.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 13.1,
+        "Cost": 655.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "django",
+        "Complexity": "medium",
+        "Time": 10.3,
+        "Cost": 515.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 7.6,
+        "Cost": 380.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "django",
+        "Complexity": "small",
+        "Time": 4.4,
+        "Cost": 220.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "react",
+        "Complexity": "large",
+        "Time": 14.9,
+        "Cost": 745.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 10.4,
+        "Cost": 520.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 11.8,
+        "Cost": 590.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 16.4,
+        "Cost": 819.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 7.5,
+        "Cost": 375.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 22.3,
+        "Cost": 1115.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 23.6,
+        "Cost": 1180.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "django",
+        "Complexity": "medium",
+        "Time": 6.8,
+        "Cost": 340.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 9.0,
+        "Cost": 450.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 4.3,
+        "Cost": 215.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "python",
+        "Complexity": "small",
+        "Time": 5.7,
+        "Cost": 285.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "angular",
+        "Complexity": "small",
+        "Time": 4.8,
+        "Cost": 240.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 6.2,
+        "Cost": 310.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 6.1,
+        "Cost": 305.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "node.js",
+        "Complexity": "large",
+        "Time": 23.6,
+        "Cost": 1180.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 8.9,
+        "Cost": 445.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 19.5,
+        "Cost": 975.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "ruby on rails",
+        "Complexity": "large",
+        "Time": 21.6,
+        "Cost": 1080.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 4.9,
+        "Cost": 245.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "django",
+        "Complexity": "small",
+        "Time": 5.0,
+        "Cost": 250.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "django",
+        "Complexity": "small",
+        "Time": 3.6,
+        "Cost": 180.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "ruby on rails",
+        "Complexity": "large",
+        "Time": 23.9,
+        "Cost": 1195.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 6.7,
+        "Cost": 335.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "flask",
+        "Complexity": "medium",
+        "Time": 7.5,
+        "Cost": 375.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 9.5,
+        "Cost": 475.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 7.2,
+        "Cost": 360.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "angular",
+        "Complexity": "small",
+        "Time": 4.5,
+        "Cost": 225.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "ruby on rails",
+        "Complexity": "small",
+        "Time": 3.2,
+        "Cost": 160.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 11.5,
+        "Cost": 575.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 19.1,
+        "Cost": 955.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 4.7,
+        "Cost": 235.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "react",
+        "Complexity": "large",
+        "Time": 13.6,
+        "Cost": 680.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "ruby on rails",
+        "Complexity": "large",
+        "Time": 13.7,
+        "Cost": 685.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 9.9,
+        "Cost": 495.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 5.8,
+        "Cost": 290.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "flask",
+        "Complexity": "small",
+        "Time": 4.1,
+        "Cost": 204.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 22.8,
+        "Cost": 1140.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 8.4,
+        "Cost": 420.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "react",
+        "Complexity": "large",
+        "Time": 16.7,
+        "Cost": 835.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 23.8,
+        "Cost": 1190.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "angular",
+        "Complexity": "small",
+        "Time": 5.9,
+        "Cost": 295.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 5.3,
+        "Cost": 265.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "c#",
+        "Complexity": "small",
+        "Time": 4.9,
+        "Cost": 245.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 6.8,
+        "Cost": 340.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "react",
+        "Complexity": "large",
+        "Time": 14.6,
+        "Cost": 730.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "angular",
+        "Complexity": "small",
+        "Time": 5.7,
+        "Cost": 285.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "python",
+        "Complexity": "small",
+        "Time": 4.6,
+        "Cost": 229.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "flask",
+        "Complexity": "large",
+        "Time": 12.7,
+        "Cost": 635.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "c#",
+        "Complexity": "small",
+        "Time": 4.3,
+        "Cost": 215.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 12.9,
+        "Cost": 645.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 16.1,
+        "Cost": 805.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "django",
+        "Complexity": "small",
+        "Time": 5.3,
+        "Cost": 265.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "angular",
+        "Complexity": "small",
+        "Time": 5.8,
+        "Cost": 290.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 21.0,
+        "Cost": 1050.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 3.1,
+        "Cost": 155.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 8.0,
+        "Cost": 400.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 11.6,
+        "Cost": 580.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 7.7,
+        "Cost": 385.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 12.1,
+        "Cost": 605.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "react",
+        "Complexity": "large",
+        "Time": 12.2,
+        "Cost": 610.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 9.4,
+        "Cost": 470.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 18.3,
+        "Cost": 915.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 15.2,
+        "Cost": 760.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 11.5,
+        "Cost": 575.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 11.3,
+        "Cost": 565.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "flask",
+        "Complexity": "medium",
+        "Time": 8.4,
+        "Cost": 420.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 8.5,
+        "Cost": 425.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 5.8,
+        "Cost": 290.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "ruby on rails",
+        "Complexity": "small",
+        "Time": 3.9,
+        "Cost": 195.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "django",
+        "Complexity": "medium",
+        "Time": 10.4,
+        "Cost": 520.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "node.js",
+        "Complexity": "large",
+        "Time": 18.1,
+        "Cost": 905.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "react",
+        "Complexity": "large",
+        "Time": 13.8,
+        "Cost": 690.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 22.5,
+        "Cost": 1125.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 19.5,
+        "Cost": 975.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "ruby on rails",
+        "Complexity": "large",
+        "Time": 21.8,
+        "Cost": 1090.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 21.6,
+        "Cost": 1080.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "ruby on rails",
+        "Complexity": "small",
+        "Time": 5.5,
+        "Cost": 275.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "c#",
+        "Complexity": "small",
+        "Time": 5.2,
+        "Cost": 260.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 17.3,
+        "Cost": 865.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "flask",
+        "Complexity": "small",
+        "Time": 4.1,
+        "Cost": 204.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 15.2,
+        "Cost": 760.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "c#",
+        "Complexity": "large",
+        "Time": 21.6,
+        "Cost": 1080.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 14.4,
+        "Cost": 720.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 19.5,
+        "Cost": 975.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "ruby on rails",
+        "Complexity": "large",
+        "Time": 15.0,
+        "Cost": 750.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 21.3,
+        "Cost": 1065.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "python",
+        "Complexity": "small",
+        "Time": 4.6,
+        "Cost": 229.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 7.3,
+        "Cost": 365.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 8.1,
+        "Cost": 405.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "flask",
+        "Complexity": "large",
+        "Time": 13.6,
+        "Cost": 680.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "react",
+        "Complexity": "large",
+        "Time": 22.8,
+        "Cost": 1140.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 18.4,
+        "Cost": 919.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "fastapi",
+        "Complexity": "small",
+        "Time": 3.7,
+        "Cost": 185.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 8.9,
+        "Cost": 445.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "fastapi",
+        "Complexity": "small",
+        "Time": 5.1,
+        "Cost": 254.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "fastapi",
+        "Complexity": "small",
+        "Time": 5.5,
+        "Cost": 275.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "flask",
+        "Complexity": "small",
+        "Time": 5.3,
+        "Cost": 265.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "angular",
+        "Complexity": "medium",
+        "Time": 11.5,
+        "Cost": 575.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 11.9,
+        "Cost": 595.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 11.1,
+        "Cost": 555.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "c#",
+        "Complexity": "small",
+        "Time": 3.3,
+        "Cost": 165.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "fastapi",
+        "Complexity": "medium",
+        "Time": 11.2,
+        "Cost": 560.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "node.js",
+        "Complexity": "large",
+        "Time": 14.8,
+        "Cost": 740.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 6.0,
+        "Cost": 300.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 22.7,
+        "Cost": 1135.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 6.8,
+        "Cost": 340.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 11.1,
+        "Cost": 555.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 21.4,
+        "Cost": 1070.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 11.1,
+        "Cost": 555.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "python",
+        "Complexity": "small",
+        "Time": 3.8,
+        "Cost": 190.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "flask",
+        "Complexity": "small",
+        "Time": 4.2,
+        "Cost": 210.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 3.0,
+        "Cost": 150.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 8.9,
+        "Cost": 445.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 6.3,
+        "Cost": 315.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 19.5,
+        "Cost": 975.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 5.8,
+        "Cost": 290.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "flask",
+        "Complexity": "large",
+        "Time": 12.1,
+        "Cost": 605.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 6.6,
+        "Cost": 330.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "angular",
+        "Complexity": "medium",
+        "Time": 7.9,
+        "Cost": 395.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "flask",
+        "Complexity": "large",
+        "Time": 20.9,
+        "Cost": 1045.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "flask",
+        "Complexity": "medium",
+        "Time": 8.0,
+        "Cost": 400.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 5.7,
+        "Cost": 285.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "fastapi",
+        "Complexity": "medium",
+        "Time": 11.2,
+        "Cost": 560.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "flask",
+        "Complexity": "large",
+        "Time": 21.1,
+        "Cost": 1055.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 11.7,
+        "Cost": 585.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 5.3,
+        "Cost": 265.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 7.0,
+        "Cost": 350.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "python",
+        "Complexity": "small",
+        "Time": 4.4,
+        "Cost": 220.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "c#",
+        "Complexity": "small",
+        "Time": 3.7,
+        "Cost": 185.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 6.1,
+        "Cost": 305.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 6.6,
+        "Cost": 330.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "react",
+        "Complexity": "medium",
+        "Time": 10.9,
+        "Cost": 545.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 8.5,
+        "Cost": 425.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 19.3,
+        "Cost": 965.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 13.0,
+        "Cost": 650.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 16.5,
+        "Cost": 825.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 7.2,
+        "Cost": 360.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 9.3,
+        "Cost": 465.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "django",
+        "Complexity": "small",
+        "Time": 5.4,
+        "Cost": 270.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 9.8,
+        "Cost": 490.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 9.3,
+        "Cost": 465.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "flask",
+        "Complexity": "medium",
+        "Time": 12.0,
+        "Cost": 600.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "c#",
+        "Complexity": "large",
+        "Time": 17.0,
+        "Cost": 850.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 4.1,
+        "Cost": 204.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "ruby on rails",
+        "Complexity": "small",
+        "Time": 5.6,
+        "Cost": 280.0
+    },
+    {
+        "Module Name": "voice assistant",
+        "Technology": "node.js",
+        "Complexity": "large",
+        "Time": 15.3,
+        "Cost": 765.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 20.4,
+        "Cost": 1019.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 12.4,
+        "Cost": 620.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "django",
+        "Complexity": "small",
+        "Time": 3.3,
+        "Cost": 165.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 3.2,
+        "Cost": 160.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "fastapi",
+        "Complexity": "medium",
+        "Time": 7.8,
+        "Cost": 390.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "node.js",
+        "Complexity": "large",
+        "Time": 22.2,
+        "Cost": 1110.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "flask",
+        "Complexity": "small",
+        "Time": 4.8,
+        "Cost": 240.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "angular",
+        "Complexity": "small",
+        "Time": 3.1,
+        "Cost": 155.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 10.1,
+        "Cost": 505.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "java",
+        "Complexity": "medium",
+        "Time": 10.6,
+        "Cost": 530.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "fastapi",
+        "Complexity": "medium",
+        "Time": 6.2,
+        "Cost": 310.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 4.9,
+        "Cost": 245.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "java",
+        "Complexity": "small",
+        "Time": 4.9,
+        "Cost": 245.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "python",
+        "Complexity": "medium",
+        "Time": 7.3,
+        "Cost": 365.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 13.5,
+        "Cost": 675.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 4.2,
+        "Cost": 210.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 17.7,
+        "Cost": 885.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "python",
+        "Complexity": "small",
+        "Time": 3.7,
+        "Cost": 185.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "ruby on rails",
+        "Complexity": "small",
+        "Time": 5.0,
+        "Cost": 250.0
+    },
+    {
+        "Module Name": "social media integration",
+        "Technology": "node.js",
+        "Complexity": "large",
+        "Time": 13.0,
+        "Cost": 650.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "angular",
+        "Complexity": "large",
+        "Time": 21.9,
+        "Cost": 1095.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "ruby on rails",
+        "Complexity": "medium",
+        "Time": 11.2,
+        "Cost": 560.0
+    },
+    {
+        "Module Name": "e-commerce backend",
+        "Technology": "django",
+        "Complexity": "large",
+        "Time": 18.8,
+        "Cost": 940.0
+    },
+    {
+        "Module Name": "speech recognition",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 17.2,
+        "Cost": 860.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "node.js",
+        "Complexity": "medium",
+        "Time": 8.0,
+        "Cost": 400.0
+    },
+    {
+        "Module Name": "inventory management",
+        "Technology": "c#",
+        "Complexity": "medium",
+        "Time": 8.1,
+        "Cost": 405.0
+    },
+    {
+        "Module Name": "recommendation system",
+        "Technology": "node.js",
+        "Complexity": "large",
+        "Time": 12.4,
+        "Cost": 620.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "django",
+        "Complexity": "medium",
+        "Time": 8.9,
+        "Cost": 445.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 14.5,
+        "Cost": 725.0
+    },
+    {
+        "Module Name": "login",
+        "Technology": "node.js",
+        "Complexity": "small",
+        "Time": 5.6,
+        "Cost": 280.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "react",
+        "Complexity": "small",
+        "Time": 3.5,
+        "Cost": 175.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "flask",
+        "Complexity": "small",
+        "Time": 5.0,
+        "Cost": 250.0
+    },
+    {
+        "Module Name": "machine learning model",
+        "Technology": "java",
+        "Complexity": "large",
+        "Time": 12.6,
+        "Cost": 630.0
+    },
+    {
+        "Module Name": "payment gateway",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 19.8,
+        "Cost": 990.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "angular",
+        "Complexity": "medium",
+        "Time": 9.0,
+        "Cost": 450.0
+    },
+    {
+        "Module Name": "activity monitoring",
+        "Technology": "fastapi",
+        "Complexity": "large",
+        "Time": 22.4,
+        "Cost": 1120.0
+    },
+    {
+        "Module Name": "data analytics",
+        "Technology": "flask",
+        "Complexity": "small",
+        "Time": 3.4,
+        "Cost": 170.0
+    },
+    {
+        "Module Name": "dashboard",
+        "Technology": "python",
+        "Complexity": "small",
+        "Time": 5.7,
+        "Cost": 285.0
+    },
+    {
+        "Module Name": "user management",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 19.8,
+        "Cost": 990.0
+    },
+    {
+        "Module Name": "image processing",
+        "Technology": "c#",
+        "Complexity": "small",
+        "Time": 5.2,
+        "Cost": 260.0
+    },
+    {
+        "Module Name": "chatbot",
+        "Technology": "python",
+        "Complexity": "large",
+        "Time": 22.7,
+        "Cost": 1135.0
+    }
+]

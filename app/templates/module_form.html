@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Make AI</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f4f9; }
+        .container { max-width: 800px; margin: auto; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
+        h1 { text-align: center; color: #333; }
+        textarea, input[type="file"] { width: 100%; margin-bottom: 15px; }
+        button { width: 100%; background-color: #007BFF; color: white; border: none; padding: 10px; cursor: pointer; }
+        button:hover { background-color: #0056b3; }
+        .response { margin-top: 20px; padding: 10px; background: #f9f9f9; border-radius: 5px; }
+        .module { margin-bottom: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button style="flex: 1; background-color: #f39034; cursor: pointer; width: 15%; border-radius: 15px;">
+            <a href="http://127.0.0.1:5000/" style="color: white; text-decoration: none;">Back</a>
+        </button>
+        <h1>Quick Make AI</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <textarea id="textInput" rows="10" placeholder="Enter your requirements"></textarea>
+            <!-- <label for="fileInput">Or Upload a File (PDF, DOCX, PPTX, TXT):</label>
+            <input type="file" id="fileInput" name="file"> -->
+            <center><button type="submit" style="width: 30%; border-radius: 15px;">Submit</button></center>
+        </form>
+        <div class="response" id="response"></div>
+    </div>
+    <script>
+        document.getElementById("uploadForm").addEventListener("submit", async function(event) {
+            event.preventDefault();
+
+            const formData = new FormData();
+            const textInput = document.getElementById("textInput").value;
+            // const fileInput = document.getElementById("fileInput").files[0];
+            if (textInput) formData.append("text", textInput);
+            // if (fileInput) formData.append("file", fileInput);
+
+            const responseDiv = document.getElementById("response");
+            responseDiv.innerHTML = "Loading...";
+
+            let retries = 0;
+            const maxRetries = 5;
+
+            while (retries < maxRetries) {
+                try {
+                    const response = await fetch("/v1/module/ai-powered", { method: "POST", body: formData });
+
+                    if (response.ok) {
+                        const data = await response.json();
+
+                        if (data.modules) {
+                            responseDiv.innerHTML = data.modules.map(module => `
+                                <div class="module">
+                                    <h3>${module.index}. ${module.module_name}</h3>
+                                    <p><strong>Frontend:</strong> ${module.frontend.join(", ") || "Not specified"}</p>
+                                    <p><strong>Backend:</strong> ${module.backend.join(", ") || "Not specified"}</p>
+                                    <p><strong>Predicted Time (hrs):</strong> ${module.predicted_time}</p>
+                                    <p><strong>Predicted Cost (INR):</strong> ${module.predicted_cost}</p>
+                                </div>
+                            `).join("");
+                            return;
+                        } else {
+                            throw new Error(data.error || "Unknown error occurred.");
+                        }
+                    } else {
+                        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                    }
+                } catch (err) {
+                    retries++;
+                    console.error(`Attempt ${retries}: ${err.message}`);
+                    if (retries >= maxRetries) {
+                        responseDiv.innerHTML = "<p>Error: Unable to process your request after multiple attempts.</p>";
+                        return;
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
