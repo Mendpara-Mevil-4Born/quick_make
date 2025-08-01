@@ -1,0 +1,3065 @@
+[
+    {
+        "Module Name": "Registration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Home",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Cars",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Insurance",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Loans",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Buy Used Cars",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "My Profile",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "My Cars",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Authentication",
+        "Technology": "PHP",
+        "Time": 11.2,
+        "Cost": 561.05,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Profile Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Car Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Insurance Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Loan Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Search & Filtering (Buy Used Cars)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Car Details",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Payment Gateway",
+        "Technology": "PHP",
+        "Time": 9.76,
+        "Cost": 487.19,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Admin Dashboard",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Notification System",
+        "Technology": "PHP",
+        "Time": 9.58,
+        "Cost": 477.72,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Settings",
+        "Technology": "PHP",
+        "Time": 10.8,
+        "Cost": 540.22,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Help & Support",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "FAQ",
+        "Technology": "PHP",
+        "Time": 9.02,
+        "Cost": 449.31,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Contact Us",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Privacy Policy",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Terms of Service",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Push Notifications",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Social Media Integration",
+        "Technology": "PHP",
+        "Time": 10.98,
+        "Cost": 549.69,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Location Services",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Progress Bar",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "OTP Verification",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Data Upload (Insurance)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Onboarding",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Account Settings",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Profile Editing",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Car Listing",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Car Detail View",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Report Generation (Admin)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Feedback",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Home Screen",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Registration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Add Car",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Edit Car",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Delete Car",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Insurance Details",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Loan Details",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Admin Panel",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Management",
+        "Technology": "PHP",
+        "Time": 11.24,
+        "Cost": 562.94,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Car Management (Admin)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Insurance Management (Admin)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Loan Management (Admin)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Report Generation",
+        "Technology": "PHP",
+        "Time": 10.46,
+        "Cost": 523.17,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Search & Filter (Cars)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Bottom Navigation Bar",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Instagram Integration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "WhatsApp Integration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Data Import/Export",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Support",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Insurance Information",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Loan Information",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Car Filters",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Dashboard",
+        "Technology": "PHP",
+        "Time": 8.77,
+        "Cost": 436.05,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Social Media Integration (WhatsApp, Instagram)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Data Upload (Insurance Policy)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Search Functionality",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Filter and Sorting",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Reviews",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Rating System",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Help Center",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Security Settings",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Data Analytics",
+        "Technology": "PHP",
+        "Time": 8.8,
+        "Cost": 437.94,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Car Details Editing",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Car Deletion",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Add New Car",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Image Upload",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Map Integration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Account Deletion",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "News & Updates",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Maintenance Alerts",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Maintenance Scheduling",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Vehicle History",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Transaction History",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Promotional Offers",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Customer Support",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Feedback Form",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "News Feed",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Registration",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Home",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Cars",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Insurance",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Loans",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Buy Used Cars",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "My Profile",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "My Cars",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Authentication",
+        "Technology": "[PHP",
+        "Time": 12.06,
+        "Cost": 597.86,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Profile Management",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Car Management",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Insurance Management",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Loan Management",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Search/Filtering (Buy Used Cars)",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Car Details",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Payment Gateway",
+        "Technology": "[PHP",
+        "Time": 10.62,
+        "Cost": 523.99,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Admin Dashboard",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Notifications",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Settings",
+        "Technology": "[PHP",
+        "Time": 11.65,
+        "Cost": 577.03,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Help/FAQ",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "About Us",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Contact Us",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Privacy Policy",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Terms of Service",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "OTP Verification",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Progress Bar",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Bottom Navigation Bar",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Social Media Integration (Instagram, WhatsApp)",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Location Services",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Data Management",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Report Generation",
+        "Technology": "[PHP",
+        "Time": 11.32,
+        "Cost": 559.98,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Analytics Dashboard",
+        "Technology": "[PHP",
+        "Time": 8.85,
+        "Cost": 433.08,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Feedback",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Security Module",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "API Integration",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Database Management",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Push Notifications",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Image Upload",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Data Validation",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Error Handling",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Roles and Permissions",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Account Management",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Billing System",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Transaction History",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Maintenance Mode",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Backup and Restore",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Version Control",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Log Monitoring",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Performance Monitoring",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Security Audit",
+        "Technology": "[PHP",
+        "Time": 12.35,
+        "Cost": 613.01,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Search/Filter Cars",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Notifications",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Help/FAQ",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Data Entry Validation",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Social Media Integration (Instagram, WhatsApp)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Location Services Integration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Car Adding",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Car Updating",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Insurance Policy Upload",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Data Backup and Restore",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Analytics Dashboard",
+        "Technology": "PHP",
+        "Time": 7.99,
+        "Cost": 396.27,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Security Management",
+        "Technology": "PHP",
+        "Time": 10.69,
+        "Cost": 534.53,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Roles and Permissions",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Account Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "In-App Messaging",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Data Synchronization",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Offline Functionality",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Internationalization/Localization",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Accessibility Features",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Data Validation",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Error Handling",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Logging and Monitoring",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "API Integration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Database Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Version Control",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Deployment Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Search Filters (Cars)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Map Integration (Location)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Help Center/FAQ",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Email Notifications",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "SMS Notifications",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Data Backup & Restore",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Log Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Maintenance Mode",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Data Export",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Import Functionality",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Search and Filtering",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Sorting Functionality",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Review System",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "About Us",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "- OTP Verification",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Registration Screen",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Development"
+    },
+    {
+        "Module Name": "- User Profile",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Development"
+    },
+    {
+        "Module Name": "- Car Profile Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Star Carz",
+        "Project Title": "Star Carz Mobile Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Addition",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Star Carz",
+        "Project Title": "Star Carz Mobile Application Design and Development"
+    },
+    {
+        "Module Name": "- Insurance Information",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car App Development"
+    },
+    {
+        "Module Name": "- Loan Information",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car App Development"
+    },
+    {
+        "Module Name": "- Home Screen",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Cars Section",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Insurance Section",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Loans Section",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Bottom Navigation Bar",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Instagram Integration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- WhatsApp Integration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Location Services",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car App Development"
+    },
+    {
+        "Module Name": "- Buy Used Cars Screen",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Filters (Brand, Model, Price)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Car Details Screen",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- My Cars Screen",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Car Update",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Star Carz",
+        "Project Title": "Star Carz Mobile Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Deletion",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Star Carz",
+        "Project Title": "Star Carz Mobile Application Design and Development"
+    },
+    {
+        "Module Name": "- User Details Update",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Star Carz",
+        "Project Title": "Star Carz Mobile Application Design and Development"
+    },
+    {
+        "Module Name": "- Admin Panel",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- User Authentication",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Payment Gateway",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car App Development"
+    },
+    {
+        "Module Name": "- Notifications",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Search Functionality",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Data Analytics",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Reporting Dashboard",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Star Carz",
+        "Project Title": "Star Carz Mobile Application Design and Development"
+    },
+    {
+        "Module Name": "- User Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Content Management System (CMS)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Help & Support",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Feedback Form",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Terms and Conditions",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Privacy Policy",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Push Notifications",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Account Settings",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Security Settings",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Star Carz",
+        "Project Title": "Star Carz Mobile Application Design and Development"
+    },
+    {
+        "Module Name": "- Image Upload",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car App Development"
+    },
+    {
+        "Module Name": "- Progress Bar",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Error Handling",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Data Validation",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Database Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- API Integration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Version Control",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Information",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Development"
+    },
+    {
+        "Module Name": "- Add Car",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Edit Car",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Delete Car",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Password Reset",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Email Verification",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Development"
+    },
+    {
+        "Module Name": "- Profile Update",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Development"
+    },
+    {
+        "Module Name": "- Personal Details Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Development"
+    },
+    {
+        "Module Name": "- Address Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Development"
+    },
+    {
+        "Module Name": "- Payment Gateway Integration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Admin Dashboard",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Car Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Insurance Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Loan Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Reporting & Analytics",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Data Export",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Development"
+    },
+    {
+        "Module Name": "- FAQs",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Development"
+    },
+    {
+        "Module Name": "- Contact Us",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Terms & Conditions",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Security Measures",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Development"
+    },
+    {
+        "Module Name": "- Data Backup",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Development"
+    },
+    {
+        "Module Name": "- ServerSide Logic",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- User Feedback",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- App Updates",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- User Registration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Profile Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Add Insurance Policy",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Update Insurance Details",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Design and Development"
+    },
+    {
+        "Module Name": "- Buy Used Cars",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Car Search Filters (Brand, Model, Price)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Car Detail Screen",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- My Profile",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car App Development"
+    },
+    {
+        "Module Name": "- My Cars",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car App Development"
+    },
+    {
+        "Module Name": "- Dashboard",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Listing Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Insurance Policy Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Report Generation",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Notification System",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Feedback System",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Design and Development"
+    },
+    {
+        "Module Name": "- Help Center",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Terms of Service",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Settings",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Data Backup and Restore",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Account Deactivation",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Design and Development"
+    },
+    {
+        "Module Name": "- Progress Bar (Registration)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Design and Development"
+    },
+    {
+        "Module Name": "- Image Upload (Insurance)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Design and Development"
+    },
+    {
+        "Module Name": "- Security (Data Encryption)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Design and Development"
+    },
+    {
+        "Module Name": "- Filtering and Sorting",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Design and Development"
+    },
+    {
+        "Module Name": "- Offline Functionality (optional)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Design and Development"
+    },
+    {
+        "Module Name": "- Account Verification",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Mobile Application Design and Development"
+    },
+    {
+        "Module Name": "- Password Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Information Input",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Insurance Policy Upload",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Used Car Search",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Car Brand Filters",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Car Model Filters",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Car Price Filters",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Car Detail View",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- My Cars List",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Add New Car",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Edit Car Details",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- System Logs",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Security Auditing",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Transaction History",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- InApp Messaging",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car App Development"
+    },
+    {
+        "Module Name": "- Geolocation Services",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Map Integration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Car Listing",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Search/Filter",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car App Development"
+    },
+    {
+        "Module Name": "- Car Details",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Profile Editing",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car App Development"
+    },
+    {
+        "Module Name": "- User Dashboard",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car App Development"
+    },
+    {
+        "Module Name": "- Admin Login",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car App Development"
+    },
+    {
+        "Module Name": "- Content Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car App Development"
+    },
+    {
+        "Module Name": "- Analytics Dashboard",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Data Backup & Restore",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Security Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Log Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Customer Support",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Personal Information Update",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Update Insurance Policy",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- View Insurance Details",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Loan Application",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Loan Status Tracking",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Secure Payment Processing",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Search & Filter Cars",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Brand Filtering",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Model Filtering",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Price Filtering",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Location Filtering",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- My Profile Screen",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- About Us",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Management (Admin)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Insurance Management (Admin)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Loan Management (Admin)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- User Feedback Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Customer Support System",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Location Services Integration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Progress Bar Module",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Not Specified",
+        "Project Title": "Used Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Information Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Insurance Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Insurance Renewal Date Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Sorting and Filtering",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Data Analytics Dashboard",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Reporting and Analytics",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- User Roles and Permissions",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Email Notifications",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- SMS Notifications",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Help and Support Section",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- FAQ Section",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Contact Us Form",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- System Monitoring",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Logging and Auditing",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- API Integrations",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- ThirdParty Library Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Registration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Insurance Renewal Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Name Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Registration Number Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Home Screen Dashboard",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Buy Used Cars Section",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Update Functionality",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Deletion Functionality",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Add New Car Functionality",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Admin User Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Admin Car Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Admin Insurance Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Admin Loan Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Reporting Module",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- User Feedback Module",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Security Module",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Server Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Version Control System",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Deployment Module",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Maintenance Module",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Personal Information Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- FAQ",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Data Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Insurance Data Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Loan Data Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Code Documentation",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Car Search",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Order Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- User Reviews and Ratings",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Car Listings Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- Image Upload and Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application"
+    },
+    {
+        "Module Name": "- User Login (OTP based)",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- User Profile Management",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Forgot Password",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Home Screen Navigation",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Reporting & Analytics Dashboard",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Data Encryption",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- ThirdParty Library Integration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Version Control System Integration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Testing Framework Integration",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Deployment Pipeline",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- Maintenance & Support",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car Application Design and Development"
+    },
+    {
+        "Module Name": "- User Feedback System",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- Terms of Service & Privacy Policy",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    },
+    {
+        "Module Name": "- User Activity Tracking",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Small",
+        "Client Name": "Mevil",
+        "Project Title": "Mevil Car App Development"
+    }
+]

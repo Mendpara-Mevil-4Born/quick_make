@@ -288,19 +288,44 @@ def generate_module_details(text):
             admin_side_detected = any(re.search(r'\b' + re.escape(kw) + r'\b', text, re.IGNORECASE) for kw in admin_keywords)
 
             prompt_modules = f"""
-            Analyze the provided project description and extract a **list of module names** directly mentioned or implied in the text. 
+Analyze the provided project description and extract the following details with high accuracy:
 
-            **Requirements:**
-            - Return module names only, **without** additional descriptions.
-            - Use clear, short, structured, and user friendly names (e.g., "User Authentication", "Admin Dashboard", "Payment Gateway").
-            - If module names are implied but not explicitly stated, infer logical names based on the project type.
-            - Do **not** return extra text or explanations.
+1. **Client Name**: Identify the name of the client, company, or organization mentioned in the text.  
+   - If explicitly stated, extract the exact name.  
+   - If not mentioned directly, infer a plausible name based on the context (e.g., company branding, domain-specific names, or text hints).  
+   - If no relevant name is found, return "Not Specified".  
 
+2. **Project Title**: Extract the name or title of the project.  
+   - If explicitly mentioned, use the exact wording.  
+   - If the title is unclear, infer a meaningful and concise title based on the project's description.  
+   - If no clear project title is found, return "Not Specified".  
+
+3. **List of Module Names**: Extract all relevant module names mentioned or implied in the text.  
+   - Return module names as a structured list (without descriptions).  
+   - If module names are implied, infer logical names based on the project type.  
+   - Ensure the list contains at least **40 module names** (if applicable) related to the project's domain.
+
+### **Important Considerations:**
+- The response should **only** contain the required details in the structured format below.  
+- Avoid explanations, additional text, or generic assumptions.  
+- Use **formal and structured module names** (e.g., "User Authentication", "Admin Dashboard", "Payment Gateway").  
+- If the project is related to **eCommerce, CRM, ERP, or SaaS**, generate modules relevant to these domains.  
+equired format.
+
+            **Format your response as follows:**
+            Client Name: [client name]
+            Project Title: [project title]
+            Modules:
+            - [module name 1]
+            - [module name 2]
+            - [module name 3]
+            ...
+            
             **Project Description:**
 
             **Text:**
             {text}
-            Please generate at least 30 module names. If the text relates to a specific domain like eCommerce or CRM, include relevant module names.
+            Please generate at least 40 module names. If the text relates to a specific domain like eCommerce or CRM, include relevant module names.
             """
 
             if detected_features:
@@ -315,10 +340,34 @@ def generate_module_details(text):
 
             response_modules = model.generate_content([prompt_modules])
 
-            print(response_modules)
+            # print(response_modules)
 
-            cleaned_modules = clean_module_names(response_modules.text)
-            print(cleaned_modules)
+
+            # Parse the response
+            response_text = response_modules.text.strip()
+            lines = response_text.split("\n")
+
+            client_name = "Not Specified"
+            project_title = "Not Specified"
+            module_names = []
+
+            # Extract client name, project title, and modules from the response
+            parsing_modules = False
+            for line in lines:
+                line = line.strip()
+                if line.startswith("Client Name:"):
+                    client_name = line.replace("Client Name:", "").strip()
+                elif line.startswith("Project Title:"):
+                    project_title = line.replace("Project Title:", "").strip()
+                elif line.startswith("Modules:"):
+                    parsing_modules = True
+                elif parsing_modules and line.startswith("-"):
+                    module_names.append(line.replace("-", "").strip())
+
+            # Clean module names (optional, if needed beyond initial cleaning)
+            cleaned_modules = clean_module_names("\n".join([f"- {m}" for m in module_names]))
+
+            # print(cleaned_modules)
 
             
 
@@ -343,7 +392,11 @@ def generate_module_details(text):
                 })
 
             if module_details:
-                return module_details
+                return {
+                    "client_name": client_name,
+                    "project_title": project_title,
+                    "modules": module_details
+                }
             else:
                 logging.warning("Module details are empty. Retrying...")
 
@@ -514,7 +567,7 @@ def module_details_api():
             logging.info(f"Existing user dataset before update: {user_dataset}")
 
             # Update or replace module details
-            for module in response:
+            for module in response["modules"]:
                 module_name = module.get("module_name")
                 technology = module.get("backend")[0] if module.get("backend") else "Unknown"
 
@@ -537,7 +590,9 @@ def module_details_api():
                     "Technology": technology,
                     "Time": predicted_time,
                     "Cost": predicted_cost,
-                    "Complexity": complexity
+                    "Complexity": complexity,
+                    "Client Name": response["client_name"],  # Add client name
+                    "Project Title": response["project_title"]  # Add project title
                 }
 
                 # Check if module exists in user dataset and replace if it does
@@ -545,9 +600,7 @@ def module_details_api():
                 for existing_module in user_dataset:
                     if existing_module["Module Name"].lower() == module_name.lower() and existing_module["Technology"].lower() == technology.lower():
                         # Replace existing module data with new predictions
-                        existing_module["Time"] = predicted_time
-                        existing_module["Cost"] = predicted_cost
-                        existing_module["Complexity"] = complexity
+                        existing_module.update(module_data)
                         module_found = True
                         break
 
@@ -566,7 +619,13 @@ def module_details_api():
                 train_model_main(user_id)  # Call the function to train the model with user data
                 logging.info(f"Trained new model for user {user_id}.")
 
-        return jsonify(response), 200  # Return the same response as saved data
+        # Return the full response including client name and project title
+        return jsonify({
+            "modules": response["modules"],
+            "client_name": response["client_name"],
+            "project_title": response["project_title"]
+        }), 200
+    
     except Exception as e:
         if "429" in str(e):
             rotate_api_key()  # Rotate API key if rate limit error occurs
