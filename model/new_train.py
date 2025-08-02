@@ -33,6 +33,10 @@ def load_dataset():
 def preprocess_data(df):
     """Encodes categorical features and prepares training data."""
     df["Module Name"] = df["Module Name"].str.lower()
+    
+    # Clean technology format - remove brackets if present
+    df["Technology"] = df["Technology"].astype(str).apply(lambda x: x.strip())
+    df["Technology"] = df["Technology"].apply(lambda x: x[1:-1].strip() if x.startswith('[') and x.endswith(']') else x)
     df["Technology"] = df["Technology"].str.lower()
 
     label_enc_module = LabelEncoder()

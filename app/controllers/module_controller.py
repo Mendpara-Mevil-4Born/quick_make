@@ -125,14 +125,21 @@ def detect_languages(text):
     try:
         model = genai.GenerativeModel("gemini-1.5-flash")
         prompt = f"""
-        Analyze the project description below and extract all mentioned programming languages, frameworks, and databases used for frontend and backend development. If specific technologies are not explicitly stated, suggest the most suitable option based on the project's requirements but not give any other text.
+        Analyze the project description below and extract all mentioned programming languages, frameworks, and databases used for frontend and backend development. 
 
-        Format your response as follows:
+        **Important Instructions:**
+        - If specific technologies are mentioned, use those exact names
+        - If no technologies are mentioned, suggest the most suitable options based on the project type
+        - For e-commerce projects, suggest: Frontend: React, Angular, Vue.js | Backend: Node.js, PHP, Python
+        - For CRM projects, suggest: Frontend: React, Angular | Backend: Node.js, Python, Java
+        - For general web projects, suggest: Frontend: React, HTML, CSS | Backend: Node.js, PHP
+        - Always provide at least one frontend and one backend technology
 
-        Frontend: [List frontend technologies]
-        Backend: [List backend technologies and databases]
+        **Format your response exactly as follows:**
+        Frontend: [technology1, technology2]
+        Backend: [technology1, technology2]
 
-        Project Description:
+        **Project Description:**
         {text}
         """
 
@@ -202,9 +209,87 @@ def get_closest_module(module_name, user_id=None):
     else:
         existing_modules = label_enc_module.classes_
 
-    best_match, confidence = process.extractOne(module_name, existing_modules) if len(existing_modules) > 0 else (None, 0)
-
-    return best_match if confidence >= 80 else module_name  # Use best match if confidence is high
+    # Clean the module name for better matching
+    cleaned_module = module_name.lower().replace("-", "").strip()
+    
+    # Try exact match first
+    if cleaned_module in existing_modules:
+        return cleaned_module
+    
+    # Try partial matches
+    for existing_module in existing_modules:
+        if cleaned_module in existing_module or existing_module in cleaned_module:
+            logging.info(f"Partial match found: '{cleaned_module}' -> '{existing_module}'")
+            return existing_module
+    
+    # Use fuzzy matching with lower threshold
+    best_match, confidence = process.extractOne(cleaned_module, existing_modules) if len(existing_modules) > 0 else (None, 0)
+    
+    # Lower the confidence threshold to get more matches
+    if confidence >= 60:  # Reduced from 80 to 60
+        logging.info(f"Fuzzy match found: '{cleaned_module}' -> '{best_match}' (confidence: {confidence})")
+        return best_match
+    
+    # If still no match, try to map common patterns
+    common_mappings = {
+        'otp verification': 'user authentication',
+        'add car': 'product management',
+        'edit car': 'product management', 
+        'delete car': 'product management',
+        'car information management': 'inventory management',
+        'car search': 'search',
+        'car filters': 'search',
+        'car details': 'product catalog',
+        'car listing': 'product catalog',
+        'car management': 'inventory management',
+        'insurance policy': 'content management',
+        'insurance management': 'content management',
+        'loan management': 'order management',
+        'payment gateway': 'payment gateway',
+        'transaction history': 'payment history',
+        'push notifications': 'notification system',
+        'data synchronization': 'data analytics',
+        'admin dashboard': 'dashboard',
+        'admin user management': 'user management',
+        'admin car management': 'product management',
+        'admin insurance management': 'content management',
+        'admin loan management': 'order management',
+        'report generation': 'report generation',
+        'analytics dashboard': 'analytics dashboard',
+        'user feedback system': 'feedback',
+        'customer support': 'help',
+        'security system': 'security management',
+        'data backup': 'file management',
+        'version control': 'api integrations',
+        'api integration': 'api integrations',
+        'database management': 'content management',
+        'server management': 'user management',
+        'maintenance and updates': 'settings',
+        'user help section': 'help',
+        'faqs': 'faq',
+        'privacy policy': 'about',
+        'terms of service': 'about',
+        'instagram integration': 'social media integration',
+        'whatsapp integration': 'social media integration',
+        'location services': 'cms integrations',
+        'my cars screen': 'dashboard',
+        'home screen': 'dashboard',
+        'cars section': 'product catalog',
+        'insurance section': 'content management',
+        'loans section': 'order management',
+        'bottom navigation bar': 'navigation'
+    }
+    
+    # Try common mappings
+    for pattern, mapped_module in common_mappings.items():
+        if pattern in cleaned_module:
+            if mapped_module in existing_modules:
+                logging.info(f"Pattern mapping: '{cleaned_module}' -> '{mapped_module}'")
+                return mapped_module
+    
+    # Last resort: return the original module name
+    logging.warning(f"No match found for '{cleaned_module}', using original name")
+    return module_name
 
 def predict_time_cost(module_name, language):
     """Predict time and cost using the model from new_test.py, but with automatic inputs."""
@@ -377,8 +462,16 @@ equired format.
                 if i == 0 or i == len(cleaned_modules) - 1:
                     continue
 
+                # Debug: Log what we have for technology detection
+                logging.info(f"Module: {module}")
+                logging.info(f"Detected Frontend: {detected_frontend}")
+                logging.info(f"Detected Backend: {detected_backend}")
                 
-                time_cost_prediction = predict_time_cost(module, detected_backend[0] if detected_backend else "Unknown")
+                # Fix: Use first backend technology or default to a common one
+                backend_tech = detected_backend[0] if detected_backend else "PHP"
+                logging.info(f"Using backend technology: {backend_tech}")
+                
+                time_cost_prediction = predict_time_cost(module, backend_tech)
 
 
                 module_details.append({
@@ -514,14 +607,33 @@ def train_model(dataset, response):
     # Implement the actual training logic here
     return LinearRegression().fit(dataset, response)
 
-@app.route("/api/module-details", methods=["POST"])
 def module_details_api():
     """API endpoint to get module details."""
-    file = request.files.get("file")
-    text_input = request.form.get("text")
-    user_id = request.form.get("user_id")
+    # Debug: Log all request data
+    logging.info(f"Request method: {request.method}")
+    logging.info(f"Request headers: {dict(request.headers)}")
+    logging.info(f"Request form data: {dict(request.form)}")
+    logging.info(f"Request files: {dict(request.files)}")
+    logging.info(f"Request JSON: {request.get_json() if request.is_json else 'Not JSON'}")
+    
+    # Check if request is JSON or form data
+    if request.is_json:
+        # Handle JSON request format
+        data = request.get_json()
+        text_input = data.get("text")
+        user_id = data.get("user_id")
+        file = None  # No file support in JSON format
+    else:
+        # Handle form data format (backward compatibility)
+        file = request.files.get("file")
+        text_input = request.form.get("text")
+        user_id = request.form.get("user_id")
+
+    # Debug: Log what we received
+    logging.info(f"Received request - file: {file}, text: {text_input[:100] if text_input else 'None'}, user_id: {user_id}")
 
     if not file and not text_input:
+        logging.error("No input text or file provided")
         return jsonify({"error": "No input text or file provided"}), 400
 
     try:
@@ -569,30 +681,74 @@ def module_details_api():
             # Update or replace module details
             for module in response["modules"]:
                 module_name = module.get("module_name")
-                technology = module.get("backend")[0] if module.get("backend") else "Unknown"
+                
+                # Fix: Handle empty backend array properly
+                backend_array = module.get("backend", [])
+                if backend_array and len(backend_array) > 0:
+                    technology = backend_array[0]
+                    # Clean technology format - remove brackets if present
+                    if isinstance(technology, str):
+                        technology = technology.strip()
+                        if technology.startswith('[') and technology.endswith(']'):
+                            technology = technology[1:-1].strip()
+                else:
+                    technology = "PHP"  # Default to PHP if no backend detected
+                
+                logging.info(f"Processing module: {module_name}, Technology: {technology}")
 
+                # Clean module name - remove dashes and extra spaces
+                cleaned_module_name = module_name.replace("-", "").strip()
+                
+                # Use fuzzy matching to find the best module match
+                best_match = get_closest_module(cleaned_module_name, user_id)
+                logging.info(f"Original: '{cleaned_module_name}' -> Best Match: '{best_match}'")
+                
                 # Predict time and cost using the appropriate model
-                module_encoded = label_enc_module.transform([module_name.lower()])[0] if module_name.lower() in label_enc_module.classes_ else len(label_enc_module.classes_)
+                module_encoded = label_enc_module.transform([best_match.lower()])[0] if best_match.lower() in label_enc_module.classes_ else len(label_enc_module.classes_)
                 lang_encoded = label_enc_lang.transform([technology.lower()])[0] if technology.lower() in label_enc_lang.classes_ else len(label_enc_lang.classes_)
 
+                # Log encoding details for debugging
+                logging.info(f"Module: '{cleaned_module_name}' -> Encoded: {module_encoded} (in classes: {cleaned_module_name.lower() in label_enc_module.classes_})")
+                logging.info(f"Technology: '{technology}' -> Encoded: {lang_encoded} (in classes: {technology.lower() in label_enc_lang.classes_})")
+                
+                # Log available classes for debugging (only once)
+                if module_encoded == len(label_enc_module.classes_):
+                    logging.warning(f"Available module classes: {list(label_enc_module.classes_)[:10]}...")  # Show first 10
+                if lang_encoded == len(label_enc_lang.classes_):
+                    logging.warning(f"Available technology classes: {list(label_enc_lang.classes_)}")
+                
+                # Log the actual input to the model
+                logging.info(f"Model input: module_encoded={module_encoded}, lang_encoded={lang_encoded}")
+                
                 # Predict time and cost
                 predicted_time = round(user_time_model.predict([[module_encoded, lang_encoded]])[0], 2)
                 predicted_cost = round(user_cost_model.predict([[module_encoded, lang_encoded]])[0], 2)
 
                 # Log predicted values for debugging
-                logging.info(f"Predicted Time for {module_name}: {predicted_time}, Predicted Cost: {predicted_cost}")
+                logging.info(f"Predicted Time for {cleaned_module_name}: {predicted_time}, Predicted Cost: {predicted_cost}")
+                
+                # Check if predictions are too similar (indicates model issue)
+                if hasattr(user_time_model, 'predict'):
+                    # Test with different inputs to see if model is working
+                    test_inputs = [
+                        [0, 0],  # First module, first technology
+                        [1, 1],  # Second module, second technology  
+                        [module_encoded, lang_encoded]  # Current input
+                    ]
+                    test_predictions = [user_time_model.predict([input_val])[0] for input_val in test_inputs]
+                    logging.info(f"Test predictions for different inputs: {test_predictions}")
+                    if len(set(test_predictions)) == 1:
+                        logging.warning("⚠️ Model is predicting same values for different inputs - possible model issue!")
 
-                complexity = "Small" if predicted_time <= 80 else "Medium" if predicted_time <= 20 else "Large"
+                complexity = "Small" if predicted_time <= 10 else "Medium" if predicted_time <= 30 else "Large"
 
                 # Prepare the module data for saving
                 module_data = {
-                    "Module Name": module_name,
+                    "Module Name": cleaned_module_name,  # Use cleaned name
                     "Technology": technology,
                     "Time": predicted_time,
                     "Cost": predicted_cost,
-                    "Complexity": complexity,
-                    "Client Name": response["client_name"],  # Add client name
-                    "Project Title": response["project_title"]  # Add project title
+                    "Complexity": complexity
                 }
 
                 # Check if module exists in user dataset and replace if it does
@@ -654,6 +810,11 @@ def update_module():
     try:
         data = request.get_json()
 
+        # Get user_id from top level
+        user_id = data.get("user_id")
+        if not user_id:
+            return jsonify({"error": "Missing user_id at top level."}), 400
+
         # Expecting a list of module data
         modules_data = data.get("modules")
 
@@ -662,14 +823,13 @@ def update_module():
 
         for module_data in modules_data:
             # Map incoming fields to desired fields
-            user_id = module_data.get("user_id")
             module_name = module_data.get("Module Name")  # Adjusted field name
             technology = module_data.get("Technology")  # Adjusted field name
             updated_time = module_data.get("Time")  # Adjusted field name
             updated_cost = module_data.get("Cost")  # Adjusted field name
             complexity = module_data.get("Complexity")  # Adjusted field name
 
-            if not all([module_name, technology, updated_time, updated_cost, user_id]):
+            if not all([module_name, technology, updated_time, updated_cost]):
                 return jsonify({"error": "Missing required fields in one of the modules."}), 400
 
             # Define user-specific directory and file path
