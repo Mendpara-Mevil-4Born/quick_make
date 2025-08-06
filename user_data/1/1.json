@@ -1,0 +1,296 @@
+[
+    {
+        "Module Name": "User Profile Management",
+        "Technology": "PHP",
+        "Time": 9.1,
+        "Cost": 453.09,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Roles and Permissions",
+        "Technology": "PHP",
+        "Time": 11.24,
+        "Cost": 562.94,
+        "Complexity": "Medium"
+    },
+    {
+        "Module Name": "Admin Dashboard",
+        "Technology": "PHP",
+        "Time": 8.77,
+        "Cost": 436.05,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Product Catalog",
+        "Technology": "PHP",
+        "Time": 9.91,
+        "Cost": 494.76,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Product Management",
+        "Technology": "PHP",
+        "Time": 9.95,
+        "Cost": 496.66,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Inventory Management",
+        "Technology": "PHP",
+        "Time": 9.25,
+        "Cost": 460.67,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Order Management",
+        "Technology": "PHP",
+        "Time": 9.69,
+        "Cost": 483.4,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Shopping Cart",
+        "Technology": "PHP",
+        "Time": 10.91,
+        "Cost": 545.9,
+        "Complexity": "Medium"
+    },
+    {
+        "Module Name": "Checkout Process",
+        "Technology": "PHP",
+        "Time": 8.36,
+        "Cost": 415.21,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Payment Gateway Integration",
+        "Technology": "PHP",
+        "Time": 9.76,
+        "Cost": 487.19,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Shipping Integration",
+        "Technology": "PHP",
+        "Time": 10.87,
+        "Cost": 544.0,
+        "Complexity": "Medium"
+    },
+    {
+        "Module Name": "Tax Calculation",
+        "Technology": "PHP",
+        "Time": 8.29,
+        "Cost": 411.43,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Customer Relationship Management (CRM)",
+        "Technology": "PHP",
+        "Time": 8.54,
+        "Cost": 424.68,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Customer Segmentation",
+        "Technology": "PHP",
+        "Time": 11.2,
+        "Cost": 561.05,
+        "Complexity": "Medium"
+    },
+    {
+        "Module Name": "Customer Support",
+        "Technology": "PHP",
+        "Time": 8.73,
+        "Cost": 434.15,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Marketing Automation",
+        "Technology": "PHP",
+        "Time": 8.18,
+        "Cost": 405.74,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Reporting and Analytics",
+        "Technology": "PHP",
+        "Time": 8.8,
+        "Cost": 437.94,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Search Functionality",
+        "Technology": "PHP",
+        "Time": 10.65,
+        "Cost": 532.64,
+        "Complexity": "Medium"
+    },
+    {
+        "Module Name": "Recommendation Engine",
+        "Technology": "PHP",
+        "Time": 10.39,
+        "Cost": 519.38,
+        "Complexity": "Medium"
+    },
+    {
+        "Module Name": "Product Reviews and Ratings",
+        "Technology": "PHP",
+        "Time": 9.91,
+        "Cost": 494.76,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Wishlists",
+        "Technology": "PHP",
+        "Time": 11.46,
+        "Cost": 574.31,
+        "Complexity": "Medium"
+    },
+    {
+        "Module Name": "Promotions and Discounts",
+        "Technology": "PHP",
+        "Time": 10.28,
+        "Cost": 513.7,
+        "Complexity": "Medium"
+    },
+    {
+        "Module Name": "Email Marketing",
+        "Technology": "PHP",
+        "Time": 8.06,
+        "Cost": 400.06,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Loyalty Program",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Medium"
+    },
+    {
+        "Module Name": "Affiliate Program",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Medium"
+    },
+    {
+        "Module Name": "Content Management System (CMS)",
+        "Technology": "PHP",
+        "Time": 8.54,
+        "Cost": 424.68,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Blog Management",
+        "Technology": "PHP",
+        "Time": 8.21,
+        "Cost": 407.64,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "SEO Optimization",
+        "Technology": "PHP",
+        "Time": 8.62,
+        "Cost": 428.47,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Social Media Integration",
+        "Technology": "PHP",
+        "Time": 10.98,
+        "Cost": 549.69,
+        "Complexity": "Medium"
+    },
+    {
+        "Module Name": "Security Management",
+        "Technology": "PHP",
+        "Time": 10.69,
+        "Cost": 534.53,
+        "Complexity": "Medium"
+    },
+    {
+        "Module Name": "Data Backup and Restore",
+        "Technology": "PHP",
+        "Time": 8.8,
+        "Cost": 437.94,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "User Access Control",
+        "Technology": "PHP",
+        "Time": 8.43,
+        "Cost": 419.0,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Audit Trails",
+        "Technology": "PHP",
+        "Time": 11.5,
+        "Cost": 576.2,
+        "Complexity": "Medium"
+    },
+    {
+        "Module Name": "Performance Monitoring",
+        "Technology": "PHP",
+        "Time": 7.84,
+        "Cost": 388.7,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "System Administration",
+        "Technology": "PHP",
+        "Time": 9.58,
+        "Cost": 477.72,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Database Management",
+        "Technology": "PHP",
+        "Time": 8.21,
+        "Cost": 407.64,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "API Integration",
+        "Technology": "PHP",
+        "Time": 8.06,
+        "Cost": 400.06,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Mobile Application",
+        "Technology": "PHP",
+        "Time": 8.06,
+        "Cost": 400.06,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Web Application",
+        "Technology": "PHP",
+        "Time": 8.06,
+        "Cost": 400.06,
+        "Complexity": "Small"
+    },
+    {
+        "Module Name": "Payment Reconciliation",
+        "Technology": "PHP",
+        "Time": 11.02,
+        "Cost": 551.58,
+        "Complexity": "Medium"
+    },
+    {
+        "Module Name": "Fraud Detection",
+        "Technology": "PHP",
+        "Time": 11.28,
+        "Cost": 564.84,
+        "Complexity": "Medium"
+    },
+    {
+        "Module Name": "Order Tracking",
+        "Technology": "PHP",
+        "Time": 9.73,
+        "Cost": 485.29,
+        "Complexity": "Small"
+    }
+]

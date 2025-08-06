@@ -5,7 +5,7 @@ from app.route.routes import main_blueprint, v2_blueprint
 from app.controllers.module_controller import module_blueprint  # Import the blueprint
 
 app = Flask(__name__, template_folder="app/templates")
-CORS(app, resources={r"/v1/*": {"origins": "https://quickmake-ai.businessvala.site"}})
+CORS(app, resources={r"/v1/*": {"origins": "*"}})
 
 @app.route('/hello_world')
 def hello_world():
@@ -22,3 +22,6 @@ def index():
 if __name__ == "__main__":
     # Run the Flask app
     app.run(host="0.0.0.0", port=5000, debug=True)
+
+    # for production
+    # app.run(host="0.0.0.0", port=3035, debug=False) 

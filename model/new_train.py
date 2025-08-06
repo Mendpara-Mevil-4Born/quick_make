@@ -68,7 +68,7 @@ def evaluate_model(model, X_test, y_test, metric_name):
     """Evaluates model performance using Mean Absolute Error."""
     y_pred = model.predict(X_test)
     error = mean_absolute_error(y_test, y_pred)
-    print(f"✅ {metric_name} Prediction Mean Absolute Error: {error:.2f}")
+    print(f"[SUCCESS] {metric_name} Prediction Mean Absolute Error: {error:.2f}")
     return error
 
 def save_model(model, filepath):
@@ -125,7 +125,7 @@ def main(user_id=None):
         save_model(label_enc_module, "module_name_encoder.pkl")
         save_model(label_enc_lang, "language_encoder.pkl")
 
-    print("✅ Models and encoders saved successfully.")
+    print("[SUCCESS] Models and encoders saved successfully.")
 
 if __name__ == "__main__":
     # Example usage: main(user_id="5")

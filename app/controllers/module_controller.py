@@ -23,24 +23,13 @@ app = Flask(__name__)
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
-def load_api_keys(file_path="api_keys.json"):
-    """Load API keys from a JSON file."""
-    try:
-        with open(file_path, "r") as file:
-            return json.load(file)
-    except FileNotFoundError:
-        logging.error("API keys file not found!")
-        return []
-
-API_KEYS = load_api_keys()
+# Use API keys from config
 current_key_index = 0
 
 def reset_api_keys():
     """Reset all API keys to active status (status = True)."""
     for key_info in API_KEYS:
         key_info["status"] = True
-    with open("api_keys.json", "w") as file:
-        json.dump(API_KEYS, file)
     logging.info("All API keys have been reset to active.")
 
 def configure_api_key():
@@ -88,11 +77,11 @@ def rotate_api_key():
     logging.error("No active API keys available after rotation.")
     raise ValueError("No active API keys available.")
 
-# Initial configuration
-try:
-    configure_api_key()
-except ValueError as e:
-    logging.error(f"API Key Configuration Error: {e}")
+# Initial configuration - commented out to avoid hanging during import
+# try:
+#     configure_api_key()
+# except ValueError as e:
+#     logging.error(f"API Key Configuration Error: {e}")
 
 def extract_text_from_pdf(file):
     """Extract text from a PDF file."""
@@ -123,6 +112,14 @@ def extract_text_from_pptx(file):
 def detect_languages(text):
     """Detect frontend and backend languages from the given text."""
     try:
+        # Ensure text is properly encoded
+        if isinstance(text, bytes):
+            text = text.decode('utf-8', errors='ignore')
+        elif not isinstance(text, str):
+            text = str(text)
+        
+        # Configure API key first
+        configure_api_key()
         model = genai.GenerativeModel("gemini-1.5-flash")
         prompt = f"""
         Analyze the project description below and extract all mentioned programming languages, frameworks, and databases used for frontend and backend development. 
@@ -145,6 +142,9 @@ def detect_languages(text):
 
         response = model.generate_content([prompt])
         response_text = response.text.strip()
+        # Ensure response text is properly encoded
+        if isinstance(response_text, bytes):
+            response_text = response_text.decode('utf-8', errors='ignore')
         logging.info("Response Text: %s", response_text)
 
         if not response_text:
@@ -177,25 +177,47 @@ def detect_languages(text):
         return [], []
     
 
-# Load trained models and encoders (from new_test.py)
-model_path = "model/"
-dataset_path = "model/dataset.json"
+# Model loading function to avoid import issues
+def load_models():
+    """Load trained models and encoders"""
+    model_path = "model/"
+    dataset_path = "model/dataset.json"
+    
+    try:
+        logging.info("Loading time prediction model...")
+        time_model = pickle.load(open(model_path + "time_prediction_model.pkl", "rb"))
+        logging.info("Loading cost prediction model...")
+        cost_model = pickle.load(open(model_path + "cost_prediction_model.pkl", "rb"))
+        logging.info("Loading module name encoder...")
+        label_enc_module = pickle.load(open(model_path + "module_name_encoder.pkl", "rb"))
+        logging.info("Loading language encoder...")
+        label_enc_lang = pickle.load(open(model_path + "language_encoder.pkl", "rb"))
+        
+        # Load dataset from JSON
+        try:
+            logging.info("Loading dataset...")
+            with open(dataset_path, "r") as f:
+                dataset = json.load(f)
+            logging.info(f"Dataset loaded with {len(dataset)} entries")
+        except (FileNotFoundError, json.JSONDecodeError) as e:
+            logging.warning(f"Dataset loading failed: {e}")
+            dataset = []
+            
+        logging.info("All models loaded successfully")
+        return time_model, cost_model, label_enc_module, label_enc_lang, dataset
+    except Exception as e:
+        logging.error(f"Error loading models: {e}")
+        import traceback
+        logging.error(f"Full traceback: {traceback.format_exc()}")
+        raise e
 
-time_model = pickle.load(open(model_path + "time_prediction_model.pkl", "rb"))
-cost_model = pickle.load(open(model_path + "cost_prediction_model.pkl", "rb"))
-label_enc_module = pickle.load(open(model_path + "module_name_encoder.pkl", "rb"))
-label_enc_lang = pickle.load(open(model_path + "language_encoder.pkl", "rb"))
 
-# Load dataset from JSON
-try:
-    with open(dataset_path, "r") as f:
-        dataset = json.load(f)
-except (FileNotFoundError, json.JSONDecodeError):
-    dataset = []
-
-
-def get_closest_module(module_name, user_id=None):
+def get_closest_module(module_name, user_id=None, label_enc_module=None):
     """Find the closest module match using fuzzy matching, with optional user-specific dataset."""
+    # Use provided label encoder or load models if not provided
+    if label_enc_module is None:
+        time_model, cost_model, label_enc_module, label_enc_lang, dataset = load_models()
+    
     if user_id:
         user_directory = os.path.join('user_data', str(user_id))
         user_file_path = os.path.join(user_directory, f'{user_id}.json')
@@ -294,6 +316,9 @@ def get_closest_module(module_name, user_id=None):
 def predict_time_cost(module_name, language):
     """Predict time and cost using the model from new_test.py, but with automatic inputs."""
     
+    # Load models
+    time_model, cost_model, label_enc_module, label_enc_lang, dataset = load_models()
+    
     # Convert to lowercase for consistency
     module_name = module_name.lower()
     language = language.lower()
@@ -356,8 +381,19 @@ def clean_module_names(module_text):
 
 def generate_module_details(text):
     """Generate module details based on the provided text."""
-    while True:
+    max_retries = 3
+    retry_count = 0
+    
+    # Ensure text is properly encoded
+    if isinstance(text, bytes):
+        text = text.decode('utf-8', errors='ignore')
+    elif not isinstance(text, str):
+        text = str(text)
+    
+    while retry_count < max_retries:
         try:
+            # Configure API key first
+            configure_api_key()
             detected_frontend, detected_backend = detect_languages(text)
 
             model = genai.GenerativeModel("gemini-1.5-flash")
@@ -430,6 +466,9 @@ equired format.
 
             # Parse the response
             response_text = response_modules.text.strip()
+            # Ensure response text is properly encoded
+            if isinstance(response_text, bytes):
+                response_text = response_text.decode('utf-8', errors='ignore')
             lines = response_text.split("\n")
 
             client_name = "Not Specified"
@@ -492,17 +531,29 @@ equired format.
                 }
             else:
                 logging.warning("Module details are empty. Retrying...")
+                retry_count += 1
+                continue
 
         except Exception as e:
             if "429" in str(e):
                 rotate_api_key()
+                retry_count += 1
+                continue
             else:
                 logging.error(f"Error during module generation: {e}")
-                raise e
+                retry_count += 1
+                if retry_count >= max_retries:
+                    raise e
+                continue
+    
+    # If we get here, all retries failed
+    raise Exception("Failed to generate module details after maximum retries")
 
 
 #  api call mate no fuunction amathi badho response html file ma jashe
 def pruposal_module():
+    print("pruposal_module function called - this should not happen!")
+    logging.info("pruposal_module function called - this should not happen!")
     user_id = request.form.get("user_id")
     file = request.files.get("file")
     text_input = request.form.get("text")
@@ -609,6 +660,11 @@ def train_model(dataset, response):
 
 def module_details_api():
     """API endpoint to get module details."""
+    logging.info("module_details_api function called - this is correct!")
+    
+    # Load default models first
+    time_model, cost_model, label_enc_module, label_enc_lang, dataset = load_models()
+    
     # Debug: Log all request data
     logging.info(f"Request method: {request.method}")
     logging.info(f"Request headers: {dict(request.headers)}")
@@ -665,6 +721,7 @@ def module_details_api():
                 logging.info(f"Loaded user-specific models for user {user_id}.")
             else:
                 # Use default models for new users
+                time_model, cost_model, label_enc_module, label_enc_lang, dataset = load_models()
                 user_time_model = time_model
                 user_cost_model = cost_model
                 logging.info(f"Using default models for user {user_id}.")
@@ -700,7 +757,7 @@ def module_details_api():
                 cleaned_module_name = module_name.replace("-", "").strip()
                 
                 # Use fuzzy matching to find the best module match
-                best_match = get_closest_module(cleaned_module_name, user_id)
+                best_match = get_closest_module(cleaned_module_name, user_id, label_enc_module)
                 logging.info(f"Original: '{cleaned_module_name}' -> Best Match: '{best_match}'")
                 
                 # Predict time and cost using the appropriate model
@@ -738,7 +795,7 @@ def module_details_api():
                     test_predictions = [user_time_model.predict([input_val])[0] for input_val in test_inputs]
                     logging.info(f"Test predictions for different inputs: {test_predictions}")
                     if len(set(test_predictions)) == 1:
-                        logging.warning("⚠️ Model is predicting same values for different inputs - possible model issue!")
+                        logging.warning(" Model is predicting same values for different inputs - possible model issue!")
 
                 complexity = "Small" if predicted_time <= 10 else "Medium" if predicted_time <= 30 else "Large"
 
@@ -772,6 +829,7 @@ def module_details_api():
 
             # Train a new model if this is the second time the user is using the service
             if len(user_dataset) > 0:  # Assuming if there's data, it's the second time
+                from model.new_train import main as train_model_main
                 train_model_main(user_id)  # Call the function to train the model with user data
                 logging.info(f"Trained new model for user {user_id}.")
 
@@ -783,26 +841,26 @@ def module_details_api():
         }), 200
     
     except Exception as e:
+        logging.error(f"Error in module_details_api: {str(e)}")
+        import traceback
+        logging.error(f"Full traceback: {traceback.format_exc()}")
+        
         if "429" in str(e):
             rotate_api_key()  # Rotate API key if rate limit error occurs
             return jsonify({"error": "Rate limit exceeded. Retrying with new API key."}), 429
         else:
-            logging.error(f"Error: {str(e)}")
-            return jsonify({"error": "An unknown error occurred."}), 500
+            return jsonify({"error": f"An error occurred: {str(e)}"}), 500
+    except Exception as e:
+        logging.error(f"Error in module_details_api (outer): {str(e)}")
+        import traceback
+        logging.error(f"Full traceback: {traceback.format_exc()}")
+        return jsonify({"error": f"An error occurred: {str(e)}"}), 500
     
 
 
-# filepath: c:\Users\mevil\Downloads\4born\10-3-25(Quick make- new model integrate for prize and time field)\Quick-make - model integrate--new changes\app\controllers\module_controller.py
-from flask import Blueprint, request, jsonify
-import json
-import os
-import logging
-
-from model.new_train import main as train_model_main
-
+# Create the blueprint for module routes
 module_blueprint = Blueprint('module', __name__)
 
-# Define Blueprint
 @module_blueprint.route("/update-module", methods=["POST"])
 def update_module():
     """Update module details in dataset.json"""
@@ -869,18 +927,13 @@ def update_module():
                 json.dump(user_dataset, f, indent=4)
 
         # After processing all modules, train the model for the specific user
-        train_model_main(user_id=user_id)
+        from model.new_train import main as train_main
+        train_main(user_id=user_id)
 
         return jsonify({"message": "Module details updated and model retrained successfully!"}), 200
 
     except Exception as e:
         logging.error(f"Error updating module: {e}")
         return jsonify({"error": "An error occurred while updating module details"}), 500
-
-def train_model_main(user_id):
-    """Train the model using the default dataset and user-specific data if available."""
-    from model.new_train import main as train_main
-    train_main(user_id=user_id)
-    logging.info(f"Training completed for user {user_id}.")
 
 
